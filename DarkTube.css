@@ -1,8 +1,8 @@
-/* 
+/*
  * Name:    DarkTube v3
  * Author:  Nass O
  * Version: v3
- * Latest update : 
+ * Latest update :
 Search bar fix
 
  */
@@ -145,7 +145,7 @@ input, .subscriptions-filter .filter-field-container {
     -webkit-filter: invert(0.35)!important;
     -moz-filter: invert(0.35)!important;
     filter: invert(0.35)!important;
-} 
+}
 .PNL6KCC-H-b img,.PNL6KCC-Y-t,img[alt="Multi-line chart"],img[alt="Line chart"],img[alt="Stacked area chart"],img[alt="Pie chart"],img[alt="Bar chart"],img[alt="Map"],.PNL6KCC-gb-a,.PNL6KCC-u-a,.PNL6KCC-L-c,.PNL6KCC-n-c,.PNL6KCC-ob-b,.PNL6KCC-R-h,.PNL6KCC-H-i img,.pl-header-privacy-limited-sharing,.action-panel-trigger-transcript:before,.c4-featured-content-editor .question-mark-icon,#console-button,#autoplay-button,#loop-button,#save-thumbnail-button,#screenshot-button,#popout-button,#fullbrowser-button,#cinemamode-button,#framestep-button,.P-impexp, .P-implang,#yt-masthead #P,.vk-t-btn,.yt-uix-button-icon-dashboard-widget-config,.subscription-header .breadcrumb-chevron,.vm-list-view .vm-video-metric.video-dislikes-count .yt-sprite,.vm-list-view .vm-video-metric.video-comments .yt-sprite,.vm-list-view .vm-video-metric.video-likes-count .yt-sprite,.action-panel-trigger-report:before,.action-panel-trigger-stats:before,.live-chat-widget .post-button::before,.compact-shelf .yt-uix-shelfslider-prev-arrow, .rtl .compact-shelf .yt-uix-shelfslider-next-arrow,.compact-shelf .yt-uix-shelfslider-next-arrow, .rtl .compact-shelf .yt-uix-shelfslider-prev-arrow,.vertical-shelf .vertical-shelf-expander:before,.live-chat-widget .live-comments-emoji-picker-open::before,.live-chat-widget .overflow-menu-button:before,.live-chat-overflow-menu .chat-popout-menu:before,.vk-t-btn,.gsok_a,.yt-uix-button-icon-view-module,.yt-uix-button-icon-view-list,.guide-builder-search .search-button .yt-uix-button-content,.fg-Uh-db-ig,img.d-u-x,.pl-header-privacy-everyone,.hhb,.shb,.subscriptions-filter .filter-button .yt-uix-button-content,.yt-uix-button-default:before, .yt-uix-button-default .yt-uix-button-icon,.yt-uix-button-icon-upload-cancel,.comments .sprite_caret.up,.comments .sprite_caret.down,.yt-uix-button-icon-icon-account-settings,.track.attribution .license-button .track-action-icon,.track .play-pause-button.play-visible .track-action-icon, .track:hover .play-pause-button.play-hover .track-action-icon, .track.expanded .play-pause-button.play-hover .track-action-icon,.audio-ui-ad-badge,.yt-uix-button-icon-creator-editor-back,.add-to-widget .playlist-status, .add-to-widget .contains-all-selected-videos.to-be-removed .playlist-status, .add-to-widget .contains-some-selected-videos.to-be-removed .playlist-status,.add-to-widget .contains-all-selected-videos .playlist-status, .add-to-widget .to-be-added .playlist-status,.add-to-widget .private-icon,.add-to-widget .public-icon,.add-to-widget .addto-search-playlist-section .search-icon,.guidelines .yt-uix-expander .yt-uix-expander-arrow,.yt-help-icon,.yt-uix-button-icon-settings,.pl-header-privacy-only-me,.create-playlist-widget-form .yt-uix-button-has-icon[data-privacy-state=privacy-private]:before,.create-playlist-widget-form .yt-uix-button-has-icon[data-privacy-state=privacy-public]:before,.create-playlist-widget-form .yt-uix-button-has-icon[data-privacy-state=privacy-unlisted]:before,.c4-editor-plus:before,#creator-sidebar .studio-icon.creator-sidebar-live-streaming,.yt-uix-button-icon-vm-beauty-view,.yt-uix-button-icon-vm-list-view,.vm-search-btn .yt-uix-button-content,.Sgb,.create-playlist-widget-button .add-new-pl-btn:before,#watch7-subscription-container .channel-settings-link:before,.searchfield .search-icon,.sprite_send_message, .yt-uix-button-icon-sprite_send_message,.ytch-search-container .search-btn-component .yt-uix-button-content,#channel-search .show-search .search-icon,#footer .yt-uix-button-icon-footer-language,#footer .yt-uix-button-icon-footer-history,#footer .yt-uix-button-icon-questionmark,.yt-uix-menu.actions-menu,.live-chat-widget .chat-popout-menu:before, #moderator-actions-menu .chat-popout-menu:before,.live-comments-emoji-type-button.emoji_people,.live-comments-emoji-type-button.emoji_flora,.live-comments-emoji-type-button.emoji_things,.live-comments-emoji-type-button.emoji_transportation,.live-comments-emoji-type-button.emoji_symbols,.xN .d-y-r-c-Qa, .ena,.MJa,.LJa,.Ygb,.gr,.iI,.khb,.Qgb,.vKFgJc,.autoplay-bar .autoplay-info-icon,#masthead-search .search-btn-component .yt-uix-button-content,#yt-masthead-user .yt-uix-button-icon-bell, .addto-button:before, .action-panel-trigger-share:before,#action-panel-overflow-button:before, .action-panel-trigger-overflow:before,.play-all-icon-btn:before {
     -webkit-filter: invert(1) grayscale(1)!important;
     -moz-filter: invert(1)grayscale(1)!important;
@@ -243,7 +243,7 @@ div#watch7-headline,#comment-settings .comment-settings-label,#comment-settings 
     color: #c5c5c5!important;
 }
 .subscribers-table .subscribed-since,.subscriber-count,.subscribers-table-header {
-    
+
     color: #AEAEAE!important;
     }
 /* Topbar */
@@ -287,7 +287,7 @@ input#masthead-search-term,#live-comments-input-field {
 }
 .yt-uix-button-default:active, .yt-uix-button-default.yt-uix-button-toggled, .yt-uix-button-default.yt-uix-button-active, .yt-uix-button-default.yt-uix-button-active:focus, .yt-uix-button-text:active {
     border-color: #1E1E1E;
-   
+
 }
 button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.load-more-button.yt-uix-load-more.comment-replies-renderer-paginator.yt-uix-button-link {
     background: transparent;
@@ -320,7 +320,7 @@ button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.load-more-
 .yt-card .yt-uix-button-expander {
     border-top: 1px solid #1a1a1a!important;
 }
-/* Link hover with background */ 
+/* Link hover with background */
 .yt-ui-menu-item:focus,.yt-uix-button-menu .yt-uix-button-menu-item.selected, .yt-uix-button-menu .yt-uix-button-menu-item-highlight .yt-uix-button-menu-item, .yt-uix-button-menu .yt-uix-button-menu-item:hover,.vm-list-view .vm-video-list .vm-video-item.selected,#creator-sidebar .creator-sidebar-section a:hover,.add-to-widget .addto-playlist-item:hover, .add-to-widget .create-playlist-item:hover, .add-to-widget .addto-playlist-item.yt-uix-kbd-nav-highlight,.guide-flyout-trigger.on-hover, .guide-item:hover, .guide-item:hover .yt-deemphasized-text, .guide-collapsible-item .yt-uix-expander-head:hover,.yt-uix-menu-trigger-selected .yt-ui-menu-item, .yt-ui-menu-item:hover {
     background: #202020;
     color: #D4D4D4;
@@ -1018,7 +1018,7 @@ input.yt-uix-form-input-radio {
 }
 .PNL6KCC-g-f {
     text-shadow: none!important;
-    
+
 }
 .PNL6KCC-g-f {
     border-color: #2A2A2A;
@@ -1193,37 +1193,37 @@ rect[fill="#cccccc"] {
 h2.purchases-title {
 color: #c5c5c5!important;
 background-color: #161616!important;
-border-color: #2A2A2A!important; 
+border-color: #2A2A2A!important;
 }
 
 h4.purchases-list-title {
 color: #c5c5c5!important;
 background-color: #161616!important;
-border-color: #2A2A2A!important; 
+border-color: #2A2A2A!important;
 }
 
 div.purchases-item-info {
 color: #c5c5c5!important;
 background-color: #161616!important;
-border-color: #2A2A2A!important; 
+border-color: #2A2A2A!important;
 }
 
 li.purchases-item {
 color: #c5c5c5!important;
 background-color: #161616!important;
-border-color: #2A2A2A!important; 
+border-color: #2A2A2A!important;
 }
 
 .purchases-video-title-content {
 color: #c5c5c5!important;
 background-color: #161616!important;
-border-color: #2A2A2A!important; 
+border-color: #2A2A2A!important;
 }
 
 ul.purchases-rental-info li {
 color: #c5c5c5!important;
 background-color: #161616!important;
-border-color: #2A2A2A!important; 
+border-color: #2A2A2A!important;
 }
 
 /* Linked comment */
@@ -1247,6 +1247,12 @@ border-color: #2A2A2A!important;
     border-radius: 0px;
 }
 
-#gaming-event-promo-title { 
+#gaming-event-promo-title {
 color: #767676;
+}
+
+/* Trending badge */
+.standalone-collection-badge-renderer-text a {
+    background-color: #252525;
+    color: #ababab;
 }
