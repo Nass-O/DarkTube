@@ -1279,3 +1279,20 @@ input:hover:-ms-input-placeholder{
   opacity: 0.3;
   transition: .2s;
 }
+
+
+/* New notifications */
+#yt-masthead-notifications-content .item-section>li>.yt-lockup-tile, #yt-masthead-notifications-content .yt-ui-ellipsis,#yt-masthead-notifications-content {
+    background: #1a1a1a;
+}
+
+#yt-masthead-notifications-content .item-section>li>.yt-lockup-tile:hover, #yt-masthead-notifications-content .yt-lockup-tile:hover .yt-ui-ellipsis {
+    background: #161616;
+}
+
+.yt-lockup-notification .yt-lockup-title a,#yt-masthead-notifications-title {
+    color: #c5c5c5;
+}
+ul.yt-lockup-byline {
+    color: dimgrey;
+}
