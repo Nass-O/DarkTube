@@ -1291,7 +1291,7 @@ input:hover:-ms-input-placeholder{
 }
 
 .yt-lockup-notification .yt-lockup-title a,#yt-masthead-notifications-title {
-    color: #c5c5c5;
+    color: #c5c5c5!important;
 }
 ul.yt-lockup-byline {
     color: dimgrey;
