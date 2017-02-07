@@ -1296,3 +1296,12 @@ input:hover:-ms-input-placeholder{
 ul.yt-lockup-byline {
     color: dimgrey;
 }
+
+
+/* In video Subscribe */
+.ytp-ce-expanding-overlay-background {
+    background-color: #131313;
+}
+.ytp-ce-channel-this .ytp-ce-channel-metadata {
+    border-top-color: #1a1a1a;
+}
