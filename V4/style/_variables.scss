@@ -1,0 +1,60 @@
+//---General
+
+$bg: #262627;
+$bg-darker: darken($bg,3%);
+$bg-lighter: lighten($bg,3%);
+$sep-base: lighten($bg, 6%);
+//$sep-lighter: lighten($bg, 6%);
+
+//searchbar
+$searchbar: darken($bg, 2%);
+
+//Input
+$input-color: #ccc;
+
+//Color
+$gray-base: #bdbdbd; //common text
+$gray-lighter: #ccc; //titles
+$gray-dark: #878787; //subtext
+$gray-darker: #6f6f6f; //even more dark
+
+
+$link-color: #549cd8;
+
+$blue: $link-color;
+
+$red-bg: #7d2e2e;
+$red-text: #b32e2e;
+
+//---Menu
+
+//Item Hover bg
+$menu-bg-hover: lighten( desaturate( adjust-hue($bg, -2deg ), 3 ), 8 );
+
+//Border
+$border-menu: lighten($bg, 2%);
+
+//---Buttons
+//default
+$btn-def-bg: lighten( $bg, 8 );
+$btn-def-border: lighten( $bg, 12 );
+
+$btn-def-bg-hover: lighten( $btn-def-bg, 3 );
+$btn-def-border-hover: lighten( $btn-def-border, 2 );
+
+//---Badges
+$badge-new-color: $gray-lighter;
+$badge-new-bg: $btn-def-bg;
+$badge-new-border: $badge-new-bg;
+
+
+$badge-live-color: $gray-lighter;
+$badge-live-bg: #6f2121;
+$badge-live-border: $badge-live-bg;
+
+//---Shadow
+$shadow-badge: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+//$shadow-toggle: inset 0 1px 9px 0px rgba(0, 0, 0, 0.21);
+
+//---Dropdowns
+$dropdown-item-bg-hover: lighten($bg,4 );

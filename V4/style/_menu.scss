@@ -1,0 +1,18 @@
+@import "_variables.scss";
+
+/*********menu*********/
+
+/*Item bg hover */
+.guide-flyout-trigger.on-hover, .guide-item:hover, .guide-item:hover .yt-deemphasized-text, .guide-collapsible-item .yt-uix-expander-head:hover {
+  background: $menu-bg-hover;
+}
+/*red*/
+.guide-item.guide-item-selected, .guide-item.guide-item-selected:hover, .guide-item.guide-item-selected .yt-deemphasized-text, .guide-item.guide-item-selected:hover .yt-deemphasized-text {
+    background: $red-bg;
+}
+.guide-section h3 a {
+    color: $red-text !important;
+}
+.guide-pinned .guide-pinning-enabled #appbar-guide-menu {
+  border-right-color: $border-menu;
+}

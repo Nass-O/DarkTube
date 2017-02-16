@@ -1,0 +1,51 @@
+@import "_variables.scss";
+/******NOTIFS*******/
+
+#yt-masthead-user .sb-notif-on .yt-uix-button-content {
+    background: $red-bg;
+    color: $gray-lighter;
+    padding: 1px;
+    border: 1px solid $red-bg;
+    border-radius: 5000px;
+}
+/*arrow*/
+.yt-uix-clickcard-card-reverse .yt-uix-card-body-arrow-vertical, .yt-uix-hovercard-card-reverse .yt-uix-card-body-arrow-vertical {
+  border-bottom-color: $bg;
+}
+.yt-uix-clickcard-card-reverse .yt-uix-card-border-arrow-vertical, .yt-uix-hovercard-card-reverse .yt-uix-card-border-arrow-vertical {
+    border-bottom-color: #313131;
+}
+
+/*header*/
+.yt-uix-clickcard-card-border, .yt-uix-hovercard-card-border {
+  background: $bg;
+  border-color: $border-menu;
+}
+#yt-masthead-notifications-title {
+  color: $gray-lighter;
+}
+
+/*content*/
+#yt-masthead-notifications-content .item-section>li>.yt-lockup-tile, #yt-masthead-notifications-content .yt-ui-ellipsis {
+  background: $bg-darker;
+}
+#yt-masthead-notifications-content .item-section>li>.yt-lockup-tile {
+    border-bottom: 1px solid $bg;
+}
+
+#yt-masthead-notifications-content .item-section>li>.yt-lockup-tile:hover, #yt-masthead-notifications-content .yt-lockup-tile:hover .yt-ui-ellipsis {
+    background: lighten($bg-darker, 2);
+}
+.yt-lockup-notification .yt-lockup-title a {
+  color: $gray-lighter;
+}
+
+/* blue dot (new notification)*/
+.yt-lockup-notification .unread-dot {
+  background: $blue;
+}
+
+/*scrollbar*/
+#yt-masthead-notifications-content {
+  background: $bg-darker;
+}

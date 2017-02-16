@@ -1,0 +1,31 @@
+@import "_variables.scss";
+/*****COMMENTS*******/
+
+/* comment area */
+.comment-simplebox-arrow .arrow-inner, .comment-simplebox-arrow .arrow-outer {
+    border-bottom-color: transparent!important;
+    border-left-color: transparent!important;
+    position: absolute!important;
+}
+.comment-simplebox-renderer-collapsed-content,.comment-simplebox-frame {
+    border-color: $sep-base;
+    color: $gray-base;
+}
+.comment-simplebox-arrow .arrow-inner {
+  border: 7px solid $bg;
+}
+.comment-simplebox-arrow .arrow-outer {
+    border-color: #393939;
+}
+.comment-simplebox,.comment-simplebox-text, .comment-simplebox-prompt {
+    background-color: $bg;
+  }
+
+.comment-simplebox-text, .comment-simplebox-prompt {
+  color: $gray-base;
+}
+
+/*show replies on comment*/
+button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.load-more-button.yt-uix-load-more.comment-replies-renderer-paginator.comment-replies-renderer-expander-down.yt-uix-button-link {
+  background: $bg;
+}

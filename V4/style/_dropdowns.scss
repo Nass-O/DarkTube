@@ -1,0 +1,21 @@
+@import "_variables.scss";
+
+/***** DROPDOWNS ******/
+/*button*/
+.yt-uix-button-default.yt-uix-button-toggled:hover,.yt-uix-button-default:active, .yt-uix-button-default.yt-uix-button-toggled, .yt-uix-button-default.yt-uix-button-active, .yt-uix-button-default.yt-uix-button-active:focus, .yt-uix-button-text:active {
+  border-color: $btn-def-border;
+  background: $btn-def-bg;
+  box-shadow: inset 0 1px 9px 0px rgba(0, 0, 0, 0.21);
+}
+
+/*content*/
+.yt-ui-menu-content {
+  background: $bg;
+  border-color: $btn-def-border;
+}
+.yt-ui-menu-item {
+  color: $gray-lighter;
+}
+.yt-uix-menu-trigger-selected .yt-ui-menu-item, .yt-ui-menu-item:hover {
+  background: $dropdown-item-bg-hover;
+}

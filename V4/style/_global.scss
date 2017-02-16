@@ -1,0 +1,69 @@
+@import "_variables.scss";
+/*********GLOBAL*********/
+/*input*/
+input {
+  color: $input-color;
+}
+
+/*--- color */
+body,html,.comment-section-header-renderer,#watch7-sidebar .video-list-item a:visited .title, #watch7-sidebar .video-list-item a:visited .title .yt-deemphasized-text,#watch-description,#action-panel-details a,.watch-view-count,.yt-uix-button-content,#watch-headline-title,h1.watch-title-container,#watch-header .yt-user-info a,.title,.video-list .video-list-item .title,.guide-item,.branded-page-module-title a:visited, .branded-page-module-title a,.branded-page-module-title {
+  color: $gray-base;
+}
+.yt-uix-button-arrow {
+  border-top-color: $gray-base;
+}
+/* link color */
+.comment-author-text,#action-panel-details:hover a,#watch7-sidebar .video-list-item a:hover:visited .title, #watch7-sidebar .video-list-item a:hover:visited .title .yt-deemphasized-text,
+
+#watch7-sidebar .video-list-item a:hover .title, #watch7-sidebar .video-list-item a:hover .title .yt-deemphasized-text,.yt-lockup:hover .yt-lockup .yt-lockup-byline a,.branded-page-module-title a.branded-page-module-title-link:hover,a,.multirow-shelf .yt-uix-expander-head,.yt-lockup-title a, .yt-lockup:hover a, .yt-lockup:hover .yt-lockup-meta a, .yt-lockup:hover .yt-lockup-description a {
+  color: $link-color;
+}
+/*[bug] dont touch this*/
+.yt-lockup:hover a {
+  color: $link-color !important;
+}
+
+/*--- background*/
+
+#yt-masthead-container,#appbar-guide-menu, .guide-flyout,.yt-card,body.kevlar-homepage{
+  background: $bg;
+}
+body {
+  background: $bg-darker;
+}
+.yt-ui-ellipsis {
+  background: transparent;
+}
+/*YT card*/
+.yt-card {
+  background: $bg;
+}
+/* separators */
+#watch7-sidebar .watch-sidebar-separation-line,.comment-simplebox-renderer,#watch8-action-buttons,#yt-masthead-container,.guide-section-separator,#browse-items-primary .item-section>li>.yt-lockup-tile, .branded-page-v2-primary-col .branded-page-box, .section-list li .item-section .branded-page-box {
+  border-color: $sep-base;
+}
+.yt-card .yt-uix-button-expander {
+  border-top-color: $sep-base;
+}
+/*
+#watch8-action-buttons {
+  border-color: $sep-lighter;
+}*/
+
+/* searchbar */
+.exp-searchbox-redesign #masthead-search {
+  background: $searchbar;
+}
+
+/* YT Scrollbar */
+.yt-scrollbar ::-webkit-scrollbar-thumb {
+  background: #525252;
+}
+.yt-scrollbar ::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+/*thumbnails*/
+.yt-thumb {
+  background: $bg;
+}

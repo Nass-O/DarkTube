@@ -1,0 +1,64 @@
+@import "_variables.scss";
+
+/* Logo */
+#masthead-logo img, #yt-masthead #logo-container .logo, .footer-logo img,#footer-logo .footer-logo-icon,span.fg-eh-hj.a-b-c.fg-ph-Qc-Wd {
+    background: url(data:image/png;base64,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) 0 no-repeat!important;
+    background-size: contain!important;
+    opacity: 0.7 !important;
+    transition: opacity .3s !important;
+}
+
+#masthead-logo img:hover, #yt-masthead #logo-container .logo:hover, .footer-logo img:hover,#footer-logo .footer-logo-icon:hover {
+    opacity: 1 !important;
+    transition: opacity .6s !important;
+}
+
+/*Icons*/
+#ie .yt-uix-form-input-radio-container.checked .yt-uix-form-input-radio-element, .ie8 .yt-uix-form-input-radio-container.checked .yt-uix-form-input-radio-element, .ie7 .yt-uix-form-input-radio-container.checked .yt-uix-form-input-radio-element, .yt-uix-form-input-radio-container input:checked+.yt-uix-form-input-radio-element {
+    -webkit-filter: invert(0.1)!important;
+    -moz-filter:invert(0.1)!important;
+    filter: invert(0.1)!important;
+}
+#comment-section-renderer .comment-renderer-footer .sprite-like[data-action-on], #comment-section-renderer .comment-renderer:hover .sprite-like[data-action-on], #comment-section-renderer .comment-renderer-footer:hover .sprite-like[data-action-on],#comment-section-renderer .comment-renderer-footer .sprite-dislike[data-action-on], #comment-section-renderer .comment-renderer:hover .sprite-dislike[data-action-on], #comment-section-renderer .comment-renderer-footer:hover .sprite-dislike[data-action-on],#comment-section-renderer .comment-renderer-footer .sprite-like,#comment-section-renderer .comment-renderer-footer .sprite-dislike {
+        -webkit-filter: invert(0)!important;
+    -moz-filter:invert(0)!important;
+    filter: invert(0)!important;
+}
+.Gc.eswa .gr,.eswd .sm,.eswa .sm,.dashboard-widget-handle {
+    -webkit-filter: invert(0.35)!important;
+    -moz-filter: invert(0.35)!important;
+    filter: invert(0.35)!important;
+}
+#report-form-modal-renderer .yt-dialog-base .yt-dialog-header .yt-dialog-close .yt-uix-button-content,.comment-replies-renderer-expander-down:after,.like-button-renderer-like-button:before,.like-button-renderer-dislike-button:before,.exp-searchbox-redesign #masthead-search:before,.PNL6KCC-H-b img,.PNL6KCC-Y-t,img[alt="Multi-line chart"],img[alt="Line chart"],img[alt="Stacked area chart"],img[alt="Pie chart"],img[alt="Bar chart"],img[alt="Map"],.PNL6KCC-gb-a,.PNL6KCC-u-a,.PNL6KCC-L-c,.PNL6KCC-n-c,.PNL6KCC-ob-b,.PNL6KCC-R-h,.PNL6KCC-H-i img,.pl-header-privacy-limited-sharing,.action-panel-trigger-transcript:before,.c4-featured-content-editor .question-mark-icon,#console-button,#autoplay-button,#loop-button,#save-thumbnail-button,#screenshot-button,#popout-button,#fullbrowser-button,#cinemamode-button,#framestep-button,.P-impexp, .P-implang,#yt-masthead #P,.vk-t-btn,.yt-uix-button-icon-dashboard-widget-config,.subscription-header .breadcrumb-chevron,.vm-list-view .vm-video-metric.video-dislikes-count .yt-sprite,.vm-list-view .vm-video-metric.video-comments .yt-sprite,.vm-list-view .vm-video-metric.video-likes-count .yt-sprite,.action-panel-trigger-report:before,.action-panel-trigger-stats:before,.live-chat-widget .post-button::before,.compact-shelf .yt-uix-shelfslider-prev-arrow, .rtl .compact-shelf .yt-uix-shelfslider-next-arrow,.compact-shelf .yt-uix-shelfslider-next-arrow, .rtl .compact-shelf .yt-uix-shelfslider-prev-arrow,.vertical-shelf .vertical-shelf-expander:before,.live-chat-widget .live-comments-emoji-picker-open::before,.live-chat-widget .overflow-menu-button:before,.live-chat-overflow-menu .chat-popout-menu:before,.vk-t-btn,.gsok_a,.yt-uix-button-icon-view-module,.yt-uix-button-icon-view-list,.guide-builder-search .search-button .yt-uix-button-content,.fg-Uh-db-ig,img.d-u-x,.pl-header-privacy-everyone,.hhb,.shb,.subscriptions-filter .filter-button .yt-uix-button-content,.yt-uix-button-default:before, .yt-uix-button-default .yt-uix-button-icon,.yt-uix-button-icon-upload-cancel,.comments .sprite_caret.up,.comments .sprite_caret.down,.yt-uix-button-icon-icon-account-settings,.track.attribution .license-button .track-action-icon,.track .play-pause-button.play-visible .track-action-icon, .track:hover .play-pause-button.play-hover .track-action-icon, .track.expanded .play-pause-button.play-hover .track-action-icon,.audio-ui-ad-badge,.yt-uix-button-icon-creator-editor-back,.add-to-widget .playlist-status, .add-to-widget .contains-all-selected-videos.to-be-removed .playlist-status, .add-to-widget .contains-some-selected-videos.to-be-removed .playlist-status,.add-to-widget .contains-all-selected-videos .playlist-status, .add-to-widget .to-be-added .playlist-status,.add-to-widget .private-icon,.add-to-widget .public-icon,.add-to-widget .addto-search-playlist-section .search-icon,.guidelines .yt-uix-expander .yt-uix-expander-arrow,.yt-help-icon,.yt-uix-button-icon-settings,.pl-header-privacy-only-me,.create-playlist-widget-form .yt-uix-button-has-icon[data-privacy-state=privacy-private]:before,.create-playlist-widget-form .yt-uix-button-has-icon[data-privacy-state=privacy-public]:before,.create-playlist-widget-form .yt-uix-button-has-icon[data-privacy-state=privacy-unlisted]:before,.c4-editor-plus:before,#creator-sidebar .studio-icon.creator-sidebar-live-streaming,.yt-uix-button-icon-vm-beauty-view,.yt-uix-button-icon-vm-list-view,.vm-search-btn .yt-uix-button-content,.Sgb,.create-playlist-widget-button .add-new-pl-btn:before,#watch7-subscription-container .channel-settings-link:before,.searchfield .search-icon,.sprite_send_message, .yt-uix-button-icon-sprite_send_message,.ytch-search-container .search-btn-component .yt-uix-button-content,#channel-search .show-search .search-icon,#footer .yt-uix-button-icon-footer-language,#footer .yt-uix-button-icon-footer-history,#footer .yt-uix-button-icon-questionmark,.yt-uix-menu.actions-menu,.live-chat-widget .chat-popout-menu:before, #moderator-actions-menu .chat-popout-menu:before,.live-comments-emoji-type-button.emoji_people,.live-comments-emoji-type-button.emoji_flora,.live-comments-emoji-type-button.emoji_things,.live-comments-emoji-type-button.emoji_transportation,.live-comments-emoji-type-button.emoji_symbols,.xN .d-y-r-c-Qa, .ena,.MJa,.LJa,.Ygb,.gr,.iI,.khb,.Qgb,.vKFgJc,.autoplay-bar .autoplay-info-icon,#masthead-search .search-btn-component .yt-uix-button-content,#yt-masthead-user .yt-uix-button-icon-bell, .addto-button:before, .action-panel-trigger-share:before,#action-panel-overflow-button:before, .action-panel-trigger-overflow:before,.play-all-icon-btn:before {
+    -webkit-filter: invert(1) grayscale(1)!important;
+    -moz-filter: invert(1)grayscale(1)!important;
+    filter: invert(1)grayscale(1)!important;
+}
+.yt-uix-button-icon-material-upload {
+    -webkit-filter: invert(.7) grayscale(1)!important;
+    -moz-filter: invert(.7)grayscale(1)!important;
+    filter: invert(.7)grayscale(1)!important;
+}
+.c4-editor-move-down:before,.c4-editor-edit:before,.c4-editor-move-up:before,.pl-video .pl-video-handle-img {
+    -webkit-filter: invert(0.5)!important;
+    -moz-filter: invert(0.5)!important;
+    filter: invert(0.5)!important;
+}
+.yt-uix-button-opacity {
+    opacity: .7;
+    -webkit-filter: grayscale(1)!important;
+    -moz-filter: grayscale(1)!important;
+    filter: grayscale(1)!important;
+    filter: alpha(opacity=70);
+}
+.yt-uix-button-icon-dismissal {
+    -webkit-filter: invert(0.84)!important;
+    -moz-filter: invert(0.84)!important;
+    filter: invert(0.84)!important;
+}
+
+#creator-sidebar .studio-icon.creator-sidebar-video-manager.selected, #creator-sidebar a:hover .studio-icon.creator-sidebar-video-manager.selected,#creator-sidebar .studio-icon.creator-sidebar-dashboard.selected, #creator-sidebar a:hover .studio-icon.creator-sidebar-dashboard.selected {
+    -webkit-filter: grayscale(.3)!important;
+    -moz-filter: grayscale(.3)!important;
+    filter: grayscale(.3)!important;
+}

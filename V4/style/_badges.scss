@@ -1,0 +1,20 @@
+@import "_variables.scss";
+
+/***** BADGES ******/
+
+/* default (new video badge) */
+.yt-badge {
+  color: $badge-new-color;
+  border: 1px solid $badge-new-border;
+  background: $badge-new-bg;
+  box-shadow: $shadow-badge;
+}
+
+
+/* live */
+.yt-badge.yt-badge-live{
+    border: 1px solid $badge-live-border;
+    color: $badge-live-color;
+    background: $badge-live-bg;
+    box-shadow: $shadow-badge;
+}
