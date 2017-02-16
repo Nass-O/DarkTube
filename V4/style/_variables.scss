@@ -7,7 +7,10 @@ $sep-base: lighten($bg, 6%);
 //$sep-lighter: lighten($bg, 6%);
 
 //searchbar
-$searchbar: darken($bg, 2%);
+$searchbar: lighten($bg, 4%);
+
+//dropdown
+$search-border:lighten( $bg, 8 );
 
 //Input
 $input-color: #ccc;

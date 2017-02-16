@@ -7,3 +7,10 @@
     color: $gray-base;
     background: $bg;
 }
+.gssb_e {
+  border-color: $search-border;
+}
+/*hover*/
+.gssb_i td {
+    background: $dropdown-item-bg-hover;
+}

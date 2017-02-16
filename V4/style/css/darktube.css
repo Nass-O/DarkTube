@@ -96,11 +96,11 @@ body, html, .comment-section-header-renderer, #watch7-sidebar .video-list-item a
 
 /*--- background*/
 #yt-masthead-container, #appbar-guide-menu, .guide-flyout, .yt-card, body.kevlar-homepage {
-				background: red;
+				background: #1e1e1e;
 }
 
 body {
-				background: #f00000;
+				background: #161616;
 }
 
 .yt-ui-ellipsis {
@@ -109,16 +109,16 @@ body {
 
 /*YT card*/
 .yt-card {
-				background: red;
+				background: #1e1e1e;
 }
 
 /* separators */
 #watch7-sidebar .watch-sidebar-separation-line, .comment-simplebox-renderer, #watch8-action-buttons, #yt-masthead-container, .guide-section-separator, #browse-items-primary .item-section > li > .yt-lockup-tile, .branded-page-v2-primary-col .branded-page-box, .section-list li .item-section .branded-page-box {
-				border-color: #ff1f1f;
+				border-color: #2d2d2d;
 }
 
 .yt-card .yt-uix-button-expander {
-				border-top-color: #ff1f1f;
+				border-top-color: #2d2d2d;
 }
 
 /*
@@ -127,7 +127,7 @@ body {
 }*/
 /* searchbar */
 .exp-searchbox-redesign #masthead-search {
-				background: #f50000;
+				background: #282828;
 }
 
 /* YT Scrollbar */
@@ -141,13 +141,13 @@ body {
 
 /*thumbnails*/
 .yt-thumb {
-				background: red;
+				background: #1e1e1e;
 }
 
 /*********menu*********/
 /*Item bg hover */
 .guide-flyout-trigger.on-hover, .guide-item:hover, .guide-item:hover .yt-deemphasized-text, .guide-collapsible-item .yt-uix-expander-head:hover {
-				background: #fc2c33;
+				background: #323232;
 }
 
 /*red*/
@@ -160,7 +160,7 @@ body {
 }
 
 .guide-pinned .guide-pinning-enabled #appbar-guide-menu {
-				border-right-color: #ff0a0a;
+				border-right-color: #232323;
 }
 
 /******SUBTEXT********/
@@ -171,20 +171,20 @@ body {
 /******BUTTONS*******/
 /*default*/
 .yt-uix-button-subscribed-branded, .yt-uix-button-subscribed-branded[disabled], .yt-uix-button-subscribed-branded[disabled]:hover, .yt-uix-button-subscribed-branded[disabled]:active, .yt-uix-button-subscribed-branded[disabled]:focus, .yt-uix-button-subscribed-unbranded, .yt-uix-button-subscribed-unbranded[disabled], .yt-uix-button-subscribed-unbranded[disabled]:hover, .yt-uix-button-subscribed-unbranded[disabled]:active, .yt-uix-button-subscribed-unbranded[disabled]:focus, .yt-uix-button-default, .yt-uix-button-default[disabled], .yt-uix-button-default[disabled]:hover, .yt-uix-button-default[disabled]:active, .yt-uix-button-default[disabled]:focus {
-				background: #ff2929;
-				border-color: #ff3d3d;
+				background: #323232;
+				border-color: #3d3d3d;
 				color: #bdbdbd;
 }
 
 .yt-uix-button-default:hover, .yt-uix-button-text:hover {
-				background: #ff3838;
-				border-color: #ff4747;
+				background: #3a3a3a;
+				border-color: #424242;
 				color: #ccc;
 }
 
 /*slider btn*/
 .compact-shelf .yt-uix-button-shelf-slider-pager {
-				background: red;
+				background: #1e1e1e;
 }
 
 .browse-list-item-container:hover .compact-shelf .yt-uix-button-shelf-slider-pager, .compact-shelf:hover .yt-uix-button-shelf-slider-pager {
@@ -202,8 +202,8 @@ body {
 }
 
 .yt-subscription-button-subscriber-count-branded-horizontal, .yt-subscription-button-subscriber-count-unbranded-horizontal {
-				border-color: #ff3d3d;
-				background-color: #ff2929;
+				border-color: #3d3d3d;
+				background-color: #323232;
 }
 
 .yt-subscription-button-subscriber-count-branded-horizontal, .yt-subscription-button-subscriber-count-unbranded-horizontal {
@@ -219,12 +219,12 @@ body {
 }
 
 .comment-simplebox-renderer-collapsed-content, .comment-simplebox-frame {
-				border-color: #ff1f1f;
+				border-color: #2d2d2d;
 				color: #bdbdbd;
 }
 
 .comment-simplebox-arrow .arrow-inner {
-				border: 7px solid red;
+				border: 7px solid #1e1e1e;
 }
 
 .comment-simplebox-arrow .arrow-outer {
@@ -232,7 +232,7 @@ body {
 }
 
 .comment-simplebox, .comment-simplebox-text, .comment-simplebox-prompt {
-				background-color: red;
+				background-color: #1e1e1e;
 }
 
 .comment-simplebox-text, .comment-simplebox-prompt {
@@ -241,15 +241,15 @@ body {
 
 /*show replies on comment*/
 button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.load-more-button.yt-uix-load-more.comment-replies-renderer-paginator.comment-replies-renderer-expander-down.yt-uix-button-link {
-				background: red;
+				background: #1e1e1e;
 }
 
 /***** BADGES ******/
 /* default (new video badge) */
 .yt-badge {
 				color: #ccc;
-				border: 1px solid #ff2929;
-				background: #ff2929;
+				border: 1px solid #323232;
+				background: #323232;
 				box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
@@ -264,15 +264,15 @@ button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.load-more-
 /***** DROPDOWNS ******/
 /*button*/
 .yt-uix-button-default.yt-uix-button-toggled:hover, .yt-uix-button-default:active, .yt-uix-button-default.yt-uix-button-toggled, .yt-uix-button-default.yt-uix-button-active, .yt-uix-button-default.yt-uix-button-active:focus, .yt-uix-button-text:active {
-				border-color: #ff3d3d;
-				background: #ff2929;
+				border-color: #3d3d3d;
+				background: #323232;
 				box-shadow: inset 0 1px 9px 0px rgba(0, 0, 0, 0.21);
 }
 
 /*content*/
 .yt-ui-menu-content {
-				background: red;
-				border-color: #ff3d3d;
+				background: #1e1e1e;
+				border-color: #3d3d3d;
 }
 
 .yt-ui-menu-item {
@@ -280,7 +280,7 @@ button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.load-more-
 }
 
 .yt-uix-menu-trigger-selected .yt-ui-menu-item, .yt-ui-menu-item:hover {
-				background: #ff1414;
+				background: #282828;
 }
 
 /******NOTIFS*******/
@@ -294,7 +294,7 @@ button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.load-more-
 
 /*arrow*/
 .yt-uix-clickcard-card-reverse .yt-uix-card-body-arrow-vertical, .yt-uix-hovercard-card-reverse .yt-uix-card-body-arrow-vertical {
-				border-bottom-color: red;
+				border-bottom-color: #1e1e1e;
 }
 
 .yt-uix-clickcard-card-reverse .yt-uix-card-border-arrow-vertical, .yt-uix-hovercard-card-reverse .yt-uix-card-border-arrow-vertical {
@@ -303,8 +303,8 @@ button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.load-more-
 
 /*header*/
 .yt-uix-clickcard-card-border, .yt-uix-hovercard-card-border {
-				background: red;
-				border-color: #ff0a0a;
+				background: #1e1e1e;
+				border-color: #232323;
 }
 
 #yt-masthead-notifications-title {
@@ -313,15 +313,15 @@ button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.load-more-
 
 /*content*/
 #yt-masthead-notifications-content .item-section > li > .yt-lockup-tile, #yt-masthead-notifications-content .yt-ui-ellipsis {
-				background: #f00000;
+				background: #161616;
 }
 
 #yt-masthead-notifications-content .item-section > li > .yt-lockup-tile {
-				border-bottom: 1px solid red;
+				border-bottom: 1px solid #1e1e1e;
 }
 
 #yt-masthead-notifications-content .item-section > li > .yt-lockup-tile:hover, #yt-masthead-notifications-content .yt-lockup-tile:hover .yt-ui-ellipsis {
-				background: #fa0000;
+				background: #1b1b1b;
 }
 
 .yt-lockup-notification .yt-lockup-title a {
@@ -335,13 +335,13 @@ button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.load-more-
 
 /*scrollbar*/
 #yt-masthead-notifications-content {
-				background: #f00000;
+				background: #161616;
 }
 
 /******POPUPS*******/
 .yt-dialog-fg, .yt-uix-overlay-fg, .no-focus-outline .yt-dialog-fg:focus {
-				background: red !important;
-				border: 1px solid #ff0a0a;
+				background: #1e1e1e !important;
+				border: 1px solid #232323;
 }
 
 .yt-dialog-fg-content .yt-dialog-title, .yt-uix-overlay-fg-content .yt-dialog-title, .yt-dialog-fg-content, .yt-uix-overlay-fg-content {
@@ -349,12 +349,12 @@ button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.load-more-
 }
 
 .yt-uix-form-input-select {
-				background: #ff0f0f;
+				background: #262626;
 				text-shadow: none;
 }
 
 .yt-uix-form-input-select:hover, .yt-uix-form-input-text:hover, .yt-uix-form-input-textarea:hover, .yt-uix-form-input-select, .yt-uix-form-input-text, .yt-uix-form-input-textarea {
-				border-color: #ff0f0f;
+				border-color: #262626;
 				color: #bdbdbd;
 }
 
@@ -365,5 +365,14 @@ button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.load-more-
 
 .gssb_m {
 				color: #bdbdbd;
-				background: red;
+				background: #1e1e1e;
+}
+
+.gssb_e {
+				border-color: #323232;
+}
+
+/*hover*/
+.gssb_i td {
+				background: #282828;
 }
