@@ -1,0 +1,24 @@
+@import "_variables.scss";
+/*********LIVE*********/
+
+/*chat*/
+#watch-sidebar-live-chat,.yt-live-chat-message-input-renderer-0,.yt-live-chat-ticker-renderer-0,.yt-live-chat-header-renderer-0 {
+    background: $live-chat-bg;
+}
+.yt-live-chat-renderer-0 {
+  background: $live-chat-content-bg;
+  color: $gray-lighter;
+}
+
+//chat msg
+.yt-live-chat-text-message-renderer-0 #message.yt-live-chat-text-message-renderer {
+  color: $gray-base;
+}
+//chat author-name
+.yt-live-chat-text-message-renderer-0 #content.yt-live-chat-text-message-renderer {
+  color: $gray-dark;
+}
+//name
+.yt-live-chat-message-input-renderer-0 #author-name.yt-live-chat-message-input-renderer {
+  color: $gray-lighter;
+}

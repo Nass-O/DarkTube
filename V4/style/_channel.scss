@@ -15,6 +15,9 @@
 .channel-header .branded-page-header-title .branded-page-header-title-link {
   color: $gray-lighter;
 }
+.branded-page-v2-primary-col .yt-uix-inlineedit-view-container .branded-page-box {
+  border-color: $border-default;
+}
 
 /* Navbar */
 #masthead-appbar {
@@ -23,4 +26,40 @@
 }
 a.yt-uix-button-epic-nav-item.selected, a.yt-uix-button-epic-nav-item.yt-uix-button-toggled, button.yt-uix-button-epic-nav-item.selected, button.yt-uix-button-epic-nav-item.yt-uix-button-toggled, .epic-nav-item.selected, .epic-nav-item.yt-uix-button-toggled, .epic-nav-item-heading {
   color: $gray-lighter;
+}
+
+/*modules*/
+//buttons
+.yt-uix-button-c4-view-action {
+    background: $channel-btn-bg;
+    border-color: $channel-btn-border;
+}
+
+//edit
+.c4-module-editor-form {
+    background-color: $channel-module-edit-bg;
+}
+.yt-uix-form-legend, .yt-uix-form-label {
+    color: $gray-lighter;
+}
+.c4-module-editor-form .yt-uix-form-input-text, .c4-module-editor-form .yt-uix-form-input-select, .c4-module-editor-form .yt-uix-form-input-textarea {
+  color: $gray-base;
+}
+.empty-shelf-text {
+  color: $gray-dark;
+}
+
+//hover
+.related-channels-editor:hover,#other-channels-sidebar:hover {
+  background-color: $channel-module-edit-bg;
+}
+
+/*Popular channels*/
+.branded-page-related-channels h3 a, .branded-page-related-channels h3 {
+  color: $gray-base;
+}
+//subscribe button
+.yt-uix-button-subscribe-unbranded, .yt-uix-button-subscribe-unbranded[disabled], .yt-uix-button-subscribe-unbranded[disabled]:hover, .yt-uix-button-subscribe-unbranded[disabled]:active, .yt-uix-button-subscribe-unbranded[disabled]:focus {
+  background-color: $channel-sub-btn-bg;
+  border-color: $channel-sub-btn-border;
 }

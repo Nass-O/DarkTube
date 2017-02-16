@@ -57,9 +57,9 @@
 }
 
 .yt-uix-button-icon-dismissal {
-				-webkit-filter: invert(0.84) !important;
-				-moz-filter: invert(0.84) !important;
-				filter: invert(0.84) !important;
+				-webkit-filter: invert(0.88) !important;
+				-moz-filter: invert(0.88) !important;
+				filter: invert(0.88) !important;
 }
 
 #creator-sidebar .studio-icon.creator-sidebar-video-manager.selected, #creator-sidebar a:hover .studio-icon.creator-sidebar-video-manager.selected, #creator-sidebar .studio-icon.creator-sidebar-dashboard.selected, #creator-sidebar a:hover .studio-icon.creator-sidebar-dashboard.selected {
@@ -233,7 +233,7 @@ body {
 }
 
 .comment-simplebox-arrow .arrow-outer {
-				border-color: #393939;
+				border-color: #2e2e2e;
 }
 
 .comment-simplebox, .comment-simplebox-text, .comment-simplebox-prompt {
@@ -401,6 +401,10 @@ button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.load-more-
 				color: #ccc;
 }
 
+.branded-page-v2-primary-col .yt-uix-inlineedit-view-container .branded-page-box {
+				border-color: #323232;
+}
+
 /* Navbar */
 #masthead-appbar {
 				background: #1e1e1e;
@@ -408,6 +412,65 @@ button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.load-more-
 }
 
 a.yt-uix-button-epic-nav-item.selected, a.yt-uix-button-epic-nav-item.yt-uix-button-toggled, button.yt-uix-button-epic-nav-item.selected, button.yt-uix-button-epic-nav-item.yt-uix-button-toggled, .epic-nav-item.selected, .epic-nav-item.yt-uix-button-toggled, .epic-nav-item-heading {
+				color: #ccc;
+}
+
+/*modules*/
+.yt-uix-button-c4-view-action {
+				background: #262626;
+				border-color: #2d2d2d;
+}
+
+.c4-module-editor-form {
+				background-color: #191919;
+}
+
+.yt-uix-form-legend, .yt-uix-form-label {
+				color: #ccc;
+}
+
+.c4-module-editor-form .yt-uix-form-input-text, .c4-module-editor-form .yt-uix-form-input-select, .c4-module-editor-form .yt-uix-form-input-textarea {
+				color: #bdbdbd;
+}
+
+.empty-shelf-text {
+				color: #878787;
+}
+
+.related-channels-editor:hover, #other-channels-sidebar:hover {
+				background-color: #191919;
+}
+
+/*Popular channels*/
+.branded-page-related-channels h3 a, .branded-page-related-channels h3 {
+				color: #bdbdbd;
+}
+
+.yt-uix-button-subscribe-unbranded, .yt-uix-button-subscribe-unbranded[disabled], .yt-uix-button-subscribe-unbranded[disabled]:hover, .yt-uix-button-subscribe-unbranded[disabled]:active, .yt-uix-button-subscribe-unbranded[disabled]:focus {
+				background-color: #2b2b2b;
+				border-color: #303030;
+}
+
+/*********LIVE*********/
+/*chat*/
+#watch-sidebar-live-chat, .yt-live-chat-message-input-renderer-0, .yt-live-chat-ticker-renderer-0, .yt-live-chat-header-renderer-0 {
+				background: #353535;
+}
+
+.yt-live-chat-renderer-0 {
+				background: #1e1e1e;
+				color: #ccc;
+}
+
+.yt-live-chat-text-message-renderer-0 #message.yt-live-chat-text-message-renderer {
+				color: #bdbdbd;
+}
+
+.yt-live-chat-text-message-renderer-0 #content.yt-live-chat-text-message-renderer {
+				color: #878787;
+}
+
+.yt-live-chat-message-input-renderer-0 #author-name.yt-live-chat-message-input-renderer {
 				color: #ccc;
 }
 

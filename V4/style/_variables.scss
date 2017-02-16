@@ -65,3 +65,21 @@ $dropdown-item-bg-hover: lighten($bg,4 );
 //---Borders
 $border-default: $search-border;
 $border-darker: darken($border-default, 2);
+
+//---channel
+//buttons (on section hover)
+$channel-btn-bg: lighten( $bg, 3 );
+$channel-btn-border: lighten( $bg, 6 );
+
+//module edit
+$channel-module-edit-bg: darken( $bg, 2 );
+
+//subscribe button (popular channels)
+$channel-sub-btn-bg: lighten( $bg, 5 );
+$channel-sub-btn-border: lighten( $bg, 7 );
+
+
+//---Live
+//chatbox
+$live-chat-bg: lighten( $bg, 9 );
+$live-chat-content-bg: $bg;
