@@ -74,6 +74,11 @@ input {
 				color: #ccc;
 }
 
+/*radio*/
+input[type="radio"] {
+				-webkit-filter: invert(1);
+}
+
 /*--- color */
 body, html, .comment-section-header-renderer, #watch7-sidebar .video-list-item a:visited .title, #watch7-sidebar .video-list-item a:visited .title .yt-deemphasized-text, #watch-description, #action-panel-details a, .watch-view-count, .yt-uix-button-content, #watch-headline-title, h1.watch-title-container, #watch-header .yt-user-info a, .title, .video-list .video-list-item .title, .guide-item, .branded-page-module-title a:visited, .branded-page-module-title a, .branded-page-module-title {
 				color: #bdbdbd;
@@ -279,7 +284,7 @@ button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.load-more-
 				color: #ccc;
 }
 
-.yt-uix-menu-trigger-selected .yt-ui-menu-item, .yt-ui-menu-item:hover {
+.yt-uix-menu-trigger-selected .yt-ui-menu-item, .yt-ui-menu-item:hover, .yt-ui-menu-item:focus {
 				background: #282828;
 }
 
@@ -375,4 +380,55 @@ button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.load-more-
 /*hover*/
 .gssb_i td {
 				background: #282828;
+}
+
+/******CHANNEL*******/
+/* my channel */
+.channel-header .secondary-header-contents {
+				background: #1e1e1e;
+				border-bottom-color: #323232;
+}
+
+.secondary-header-contents .nav-text {
+				color: #bdbdbd;
+}
+
+#c4-header-bg-container {
+				border-bottom-color: #323232;
+}
+
+.channel-header .branded-page-header-title .branded-page-header-title-link {
+				color: #ccc;
+}
+
+/* Navbar */
+#masthead-appbar {
+				background: #1e1e1e;
+				border-bottom-color: #323232;
+}
+
+a.yt-uix-button-epic-nav-item.selected, a.yt-uix-button-epic-nav-item.yt-uix-button-toggled, button.yt-uix-button-epic-nav-item.selected, button.yt-uix-button-epic-nav-item.yt-uix-button-toggled, .epic-nav-item.selected, .epic-nav-item.yt-uix-button-toggled, .epic-nav-item-heading {
+				color: #ccc;
+}
+
+/***** FOOTER ******/
+body #footer-container {
+				background: #1e1e1e;
+				border-top-color: #323232;
+}
+
+#footer-main, .yt-picker-header, #safety-form p.safety-submit {
+				border-color: #2d2d2d;
+}
+
+#footer-links-primary a, .yt-default h1, .yt-default h2, .yt-default h3, .yt-default h4, .yt-default h5, .yt-default h6, h1.yt, h2.yt, h3.yt, h4.yt, h5.yt, h6.yt {
+				color: #bdbdbd;
+}
+
+#footer-links-secondary a, #footer-links-secondary .copyright, .yt-default .yt-notes, p.yt-notes {
+				color: #878787;
+}
+
+#yt-picker-country-footer, #yt-picker-language-footer, #yt-picker-safetymode-footer {
+				background: #1e1e1e;
 }

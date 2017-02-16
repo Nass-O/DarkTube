@@ -16,6 +16,6 @@
 .yt-ui-menu-item {
   color: $gray-lighter;
 }
-.yt-uix-menu-trigger-selected .yt-ui-menu-item, .yt-ui-menu-item:hover {
+.yt-uix-menu-trigger-selected .yt-ui-menu-item, .yt-ui-menu-item:hover,.yt-ui-menu-item:focus {
   background: $dropdown-item-bg-hover;
 }

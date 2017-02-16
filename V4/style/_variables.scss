@@ -17,7 +17,7 @@ $input-color: #ccc;
 
 //Color
 $gray-base: #bdbdbd; //common text
-$gray-lighter: #ccc; //titles
+$gray-lighter: #ccc; //big titles
 $gray-dark: #878787; //subtext
 $gray-darker: #6f6f6f; //even more dark
 
@@ -61,3 +61,7 @@ $shadow-badge: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
 
 //---Dropdowns
 $dropdown-item-bg-hover: lighten($bg,4 );
+
+//---Borders
+$border-default: $search-border;
+$border-darker: darken($border-default, 2);

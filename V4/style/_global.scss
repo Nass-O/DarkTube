@@ -4,7 +4,10 @@
 input {
   color: $input-color;
 }
-
+/*radio*/
+input[type="radio"] {
+    -webkit-filter: invert(1);
+}
 /*--- color */
 body,html,.comment-section-header-renderer,#watch7-sidebar .video-list-item a:visited .title, #watch7-sidebar .video-list-item a:visited .title .yt-deemphasized-text,#watch-description,#action-panel-details a,.watch-view-count,.yt-uix-button-content,#watch-headline-title,h1.watch-title-container,#watch-header .yt-user-info a,.title,.video-list .video-list-item .title,.guide-item,.branded-page-module-title a:visited, .branded-page-module-title a,.branded-page-module-title {
   color: $gray-base;

@@ -1,0 +1,21 @@
+@import "_variables.scss";
+
+/***** FOOTER ******/
+
+body #footer-container {
+  background: $bg;
+  border-top-color: $border-default;
+}
+#footer-main,.yt-picker-header,#safety-form p.safety-submit {
+  border-color: $border-darker;
+}
+#footer-links-primary a,.yt-default h1, .yt-default h2, .yt-default h3, .yt-default h4, .yt-default h5, .yt-default h6, h1.yt, h2.yt, h3.yt, h4.yt, h5.yt, h6.yt {
+  color: $gray-base;
+}
+#footer-links-secondary a, #footer-links-secondary .copyright,.yt-default .yt-notes, p.yt-notes {
+  color: $gray-dark;
+}
+
+#yt-picker-country-footer, #yt-picker-language-footer, #yt-picker-safetymode-footer {
+  background: $bg;
+}

@@ -1,0 +1,26 @@
+@import "_variables.scss";
+/******CHANNEL*******/
+
+/* my channel */
+.channel-header .secondary-header-contents {
+  background: $bg;
+  border-bottom-color: $border-default;
+}
+.secondary-header-contents .nav-text {
+  color: $gray-base;
+}
+#c4-header-bg-container {
+  border-bottom-color: $border-default;
+}
+.channel-header .branded-page-header-title .branded-page-header-title-link {
+  color: $gray-lighter;
+}
+
+/* Navbar */
+#masthead-appbar {
+  background: $bg;
+  border-bottom-color: $border-default;
+}
+a.yt-uix-button-epic-nav-item.selected, a.yt-uix-button-epic-nav-item.yt-uix-button-toggled, button.yt-uix-button-epic-nav-item.selected, button.yt-uix-button-epic-nav-item.yt-uix-button-toggled, .epic-nav-item.selected, .epic-nav-item.yt-uix-button-toggled, .epic-nav-item-heading {
+  color: $gray-lighter;
+}
