@@ -81,24 +81,24 @@
 				}
 				/*--- background*/
 				#yt-masthead-container, #appbar-guide-menu, .guide-flyout, .yt-card, body.kevlar-homepage {
-								background: #262627;
+								background: red;
 				}
 				body {
-								background: #1e1e1f;
+								background: #f00000;
 				}
 				.yt-ui-ellipsis {
 								background: transparent;
 				}
 				/*YT card*/
 				.yt-card {
-								background: #262627;
+								background: red;
 				}
 				/* separators */
 				#watch7-sidebar .watch-sidebar-separation-line, .comment-simplebox-renderer, #watch8-action-buttons, #yt-masthead-container, .guide-section-separator, #browse-items-primary .item-section > li > .yt-lockup-tile, .branded-page-v2-primary-col .branded-page-box, .section-list li .item-section .branded-page-box {
-								border-color: #353536;
+								border-color: #ff1f1f;
 				}
 				.yt-card .yt-uix-button-expander {
-								border-top-color: #353536;
+								border-top-color: #ff1f1f;
 				}
 				/*
 #watch8-action-buttons {
@@ -106,7 +106,7 @@
 }*/
 				/* searchbar */
 				.exp-searchbox-redesign #masthead-search {
-								background: #212122;
+								background: #f50000;
 				}
 				/* YT Scrollbar */
 				.yt-scrollbar ::-webkit-scrollbar-thumb {
@@ -117,12 +117,12 @@
 				}
 				/*thumbnails*/
 				.yt-thumb {
-								background: #262627;
+								background: red;
 				}
 				/*********menu*********/
 				/*Item bg hover */
 				.guide-flyout-trigger.on-hover, .guide-item:hover, .guide-item:hover .yt-deemphasized-text, .guide-collapsible-item .yt-uix-expander-head:hover {
-								background: #3b3b3b;
+								background: #fc2c33;
 				}
 				/*red*/
 				.guide-item.guide-item-selected, .guide-item.guide-item-selected:hover, .guide-item.guide-item-selected .yt-deemphasized-text, .guide-item.guide-item-selected:hover .yt-deemphasized-text {
@@ -132,7 +132,7 @@
 								color: #b32e2e !important;
 				}
 				.guide-pinned .guide-pinning-enabled #appbar-guide-menu {
-								border-right-color: #2b2b2c;
+								border-right-color: #ff0a0a;
 				}
 				/******SUBTEXT********/
 				.video-list .video-list-item .description, .video-list .video-list-item .stat, .guide-item .guide-count, .guide-item-subtitle, .yt-lockup .yt-lockup-byline a, .yt-lockup .yt-lockup-meta a, .yt-lockup .yt-lockup-description a, .yt-lockup, .shelf-description, .shelf-annotation {
@@ -141,18 +141,18 @@
 				/******BUTTONS*******/
 				/*default*/
 				.yt-uix-button-subscribed-branded, .yt-uix-button-subscribed-branded[disabled], .yt-uix-button-subscribed-branded[disabled]:hover, .yt-uix-button-subscribed-branded[disabled]:active, .yt-uix-button-subscribed-branded[disabled]:focus, .yt-uix-button-subscribed-unbranded, .yt-uix-button-subscribed-unbranded[disabled], .yt-uix-button-subscribed-unbranded[disabled]:hover, .yt-uix-button-subscribed-unbranded[disabled]:active, .yt-uix-button-subscribed-unbranded[disabled]:focus, .yt-uix-button-default, .yt-uix-button-default[disabled], .yt-uix-button-default[disabled]:hover, .yt-uix-button-default[disabled]:active, .yt-uix-button-default[disabled]:focus {
-								background: #3a3a3c;
-								border-color: #444446;
+								background: #ff2929;
+								border-color: #ff3d3d;
 								color: #bdbdbd;
 				}
 				.yt-uix-button-default:hover, .yt-uix-button-text:hover {
-								background: #424243;
-								border-color: #49494b;
+								background: #ff3838;
+								border-color: #ff4747;
 								color: #ccc;
 				}
 				/*slider btn*/
 				.compact-shelf .yt-uix-button-shelf-slider-pager {
-								background: #262627;
+								background: red;
 				}
 				.browse-list-item-container:hover .compact-shelf .yt-uix-button-shelf-slider-pager, .compact-shelf:hover .yt-uix-button-shelf-slider-pager {
 								border: 1px solid #2c2c2d;
@@ -166,8 +166,8 @@
 								background-color: #903535;
 				}
 				.yt-subscription-button-subscriber-count-branded-horizontal, .yt-subscription-button-subscriber-count-unbranded-horizontal {
-								border-color: #444446;
-								background-color: #3a3a3c;
+								border-color: #ff3d3d;
+								background-color: #ff2929;
 				}
 				.yt-subscription-button-subscriber-count-branded-horizontal, .yt-subscription-button-subscriber-count-unbranded-horizontal {
 								color: #bdbdbd;
@@ -180,31 +180,31 @@
 								position: absolute !important;
 				}
 				.comment-simplebox-renderer-collapsed-content, .comment-simplebox-frame {
-								border-color: #353536;
+								border-color: #ff1f1f;
 								color: #bdbdbd;
 				}
 				.comment-simplebox-arrow .arrow-inner {
-								border: 7px solid #262627;
+								border: 7px solid red;
 				}
 				.comment-simplebox-arrow .arrow-outer {
 								border-color: #393939;
 				}
 				.comment-simplebox, .comment-simplebox-text, .comment-simplebox-prompt {
-								background-color: #262627;
+								background-color: red;
 				}
 				.comment-simplebox-text, .comment-simplebox-prompt {
 								color: #bdbdbd;
 				}
 				/*show replies on comment*/
 				button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.load-more-button.yt-uix-load-more.comment-replies-renderer-paginator.comment-replies-renderer-expander-down.yt-uix-button-link {
-								background: #262627;
+								background: red;
 				}
 				/***** BADGES ******/
 				/* default (new video badge) */
 				.yt-badge {
 								color: #ccc;
-								border: 1px solid #3a3a3c;
-								background: #3a3a3c;
+								border: 1px solid #ff2929;
+								background: #ff2929;
 								box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
 				}
 				/* live */
@@ -217,20 +217,20 @@
 				/***** DROPDOWNS ******/
 				/*button*/
 				.yt-uix-button-default.yt-uix-button-toggled:hover, .yt-uix-button-default:active, .yt-uix-button-default.yt-uix-button-toggled, .yt-uix-button-default.yt-uix-button-active, .yt-uix-button-default.yt-uix-button-active:focus, .yt-uix-button-text:active {
-								border-color: #444446;
-								background: #3a3a3c;
+								border-color: #ff3d3d;
+								background: #ff2929;
 								box-shadow: inset 0 1px 9px 0px rgba(0, 0, 0, 0.21);
 				}
 				/*content*/
 				.yt-ui-menu-content {
-								background: #262627;
-								border-color: #444446;
+								background: red;
+								border-color: #ff3d3d;
 				}
 				.yt-ui-menu-item {
 								color: #ccc;
 				}
 				.yt-uix-menu-trigger-selected .yt-ui-menu-item, .yt-ui-menu-item:hover {
-								background: #303031;
+								background: #ff1414;
 				}
 				/******NOTIFS*******/
 				#yt-masthead-user .sb-notif-on .yt-uix-button-content {
@@ -242,28 +242,28 @@
 				}
 				/*arrow*/
 				.yt-uix-clickcard-card-reverse .yt-uix-card-body-arrow-vertical, .yt-uix-hovercard-card-reverse .yt-uix-card-body-arrow-vertical {
-								border-bottom-color: #262627;
+								border-bottom-color: red;
 				}
 				.yt-uix-clickcard-card-reverse .yt-uix-card-border-arrow-vertical, .yt-uix-hovercard-card-reverse .yt-uix-card-border-arrow-vertical {
 								border-bottom-color: #313131;
 				}
 				/*header*/
 				.yt-uix-clickcard-card-border, .yt-uix-hovercard-card-border {
-								background: #262627;
-								border-color: #2b2b2c;
+								background: red;
+								border-color: #ff0a0a;
 				}
 				#yt-masthead-notifications-title {
 								color: #ccc;
 				}
 				/*content*/
 				#yt-masthead-notifications-content .item-section > li > .yt-lockup-tile, #yt-masthead-notifications-content .yt-ui-ellipsis {
-								background: #1e1e1f;
+								background: #f00000;
 				}
 				#yt-masthead-notifications-content .item-section > li > .yt-lockup-tile {
-								border-bottom: 1px solid #262627;
+								border-bottom: 1px solid red;
 				}
 				#yt-masthead-notifications-content .item-section > li > .yt-lockup-tile:hover, #yt-masthead-notifications-content .yt-lockup-tile:hover .yt-ui-ellipsis {
-								background: #232324;
+								background: #fa0000;
 				}
 				.yt-lockup-notification .yt-lockup-title a {
 								color: #ccc;
@@ -274,22 +274,22 @@
 				}
 				/*scrollbar*/
 				#yt-masthead-notifications-content {
-								background: #1e1e1f;
+								background: #f00000;
 				}
 				/******POPUPS*******/
 				.yt-dialog-fg, .yt-uix-overlay-fg, .no-focus-outline .yt-dialog-fg:focus {
-								background: #262627 !important;
-								border: 1px solid #2b2b2c;
+								background: red !important;
+								border: 1px solid #ff0a0a;
 				}
 				.yt-dialog-fg-content .yt-dialog-title, .yt-uix-overlay-fg-content .yt-dialog-title, .yt-dialog-fg-content, .yt-uix-overlay-fg-content {
 								color: #bdbdbd;
 				}
 				.yt-uix-form-input-select {
-								background: #2e2e2f;
+								background: #ff0f0f;
 								text-shadow: none;
 				}
 				.yt-uix-form-input-select:hover, .yt-uix-form-input-text:hover, .yt-uix-form-input-textarea:hover, .yt-uix-form-input-select, .yt-uix-form-input-text, .yt-uix-form-input-textarea {
-								border-color: #2e2e2f;
+								border-color: #ff0f0f;
 								color: #bdbdbd;
 				}
 				/******SEARCH*******/
@@ -298,6 +298,6 @@
 				}
 				.gssb_m {
 								color: #bdbdbd;
-								background: #262627;
+								background: red;
 				}
 }
