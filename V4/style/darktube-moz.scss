@@ -1,3 +1,5 @@
+@-moz-document domain("www.youtube.com") {
+  
 @import "_base.scss";
 @import "_global.scss";
 @import "_menu.scss";
@@ -9,3 +11,5 @@
 @import "_notifs.scss";
 @import "_popups.scss";
 @import "_search.scss";
+
+}
