@@ -5,9 +5,14 @@
 #watch-sidebar-live-chat,.yt-live-chat-message-input-renderer-0,.yt-live-chat-ticker-renderer-0,.yt-live-chat-header-renderer-0 {
     background: $live-chat-bg;
 }
-.yt-live-chat-renderer-0 {
+.yt-live-chat-renderer-0,#watch-sidebar-live-chat .yt-uix-expander-collapsed {
   background: $live-chat-content-bg;
   color: $gray-lighter;
+}
+
+//msg menu
+.yt-live-chat-text-message-renderer-0 #menu.yt-live-chat-text-message-renderer {
+  background: transparent;
 }
 
 //chat msg
@@ -28,6 +33,9 @@
   color: $gray-base;
 }
 
-.yt-live-chat-icon-toggle-button-renderer-0 paper-icon-button[active].yt-live-chat-icon-toggle-button-renderer {
+.yt-live-chat-icon-toggle-button-renderer-0 paper-icon-button[active].yt-live-chat-icon-toggle-button-renderer,.yt-live-chat-header-renderer-0,.yt-live-chat-header-renderer-0 #action-buttons.yt-live-chat-header-renderer > *.yt-live-chat-header-renderer, .yt-live-chat-header-renderer-0 #overflow.yt-live-chat-header-renderer,.yt-live-chat-text-message-renderer-0 #menu.yt-live-chat-text-message-renderer {
   color: $gray-lighter;
+}
+.yt-live-chat-icon-toggle-button-renderer-0 paper-icon-button.yt-live-chat-icon-toggle-button-renderer {
+  color: $gray-base;
 }

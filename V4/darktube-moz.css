@@ -226,14 +226,14 @@
     box-shadow: inset 0 1px 9px 0px rgba(0, 0, 0, 0.21); }
 
   /*content*/
-  .yt-ui-menu-content {
+  .yt-ui-menu-content, .paper-menu-0 {
     background: #1e1e1e;
     border-color: #3d3d3d; }
 
-  .yt-ui-menu-item {
+  .yt-ui-menu-item, .paper-menu-0, .ytd-menu-service-item-renderer-0 yt-formatted-string.ytd-menu-service-item-renderer, .ytd-menu-navigation-item-renderer-0 a.ytd-menu-navigation-item-renderer:hover, .ytd-menu-navigation-item-renderer-0 yt-formatted-string.ytd-menu-navigation-item-renderer {
     color: #ccc; }
 
-  .yt-uix-menu-trigger-selected .yt-ui-menu-item, .yt-ui-menu-item:hover, .yt-ui-menu-item:focus {
+  .yt-uix-menu-trigger-selected .yt-ui-menu-item, .yt-ui-menu-item:hover, .yt-ui-menu-item:focus, .ytd-menu-service-item-renderer-0:hover, .ytd-menu-navigation-item-renderer-0 a.ytd-menu-navigation-item-renderer:hover {
     background: #282828; }
 
   /******NOTIFS*******/
@@ -368,11 +368,14 @@
   /*********LIVE*********/
   /*chat*/
   #watch-sidebar-live-chat, .yt-live-chat-message-input-renderer-0, .yt-live-chat-ticker-renderer-0, .yt-live-chat-header-renderer-0 {
-    background: #353535; }
+    background: #292929; }
 
-  .yt-live-chat-renderer-0 {
+  .yt-live-chat-renderer-0, #watch-sidebar-live-chat .yt-uix-expander-collapsed {
     background: #1e1e1e;
     color: #ccc; }
+
+  .yt-live-chat-text-message-renderer-0 #menu.yt-live-chat-text-message-renderer {
+    background: transparent; }
 
   .yt-live-chat-text-message-renderer-0 #message.yt-live-chat-text-message-renderer {
     color: #bdbdbd; }
@@ -386,8 +389,11 @@
   .yt-live-chat-text-input-field-renderer-0 #label.yt-live-chat-text-input-field-renderer, .yt-live-chat-message-input-renderer-0 #count.yt-live-chat-message-input-renderer {
     color: #bdbdbd; }
 
-  .yt-live-chat-icon-toggle-button-renderer-0 paper-icon-button[active].yt-live-chat-icon-toggle-button-renderer {
+  .yt-live-chat-icon-toggle-button-renderer-0 paper-icon-button[active].yt-live-chat-icon-toggle-button-renderer, .yt-live-chat-header-renderer-0, .yt-live-chat-header-renderer-0 #action-buttons.yt-live-chat-header-renderer > *.yt-live-chat-header-renderer, .yt-live-chat-header-renderer-0 #overflow.yt-live-chat-header-renderer, .yt-live-chat-text-message-renderer-0 #menu.yt-live-chat-text-message-renderer {
     color: #ccc; }
+
+  .yt-live-chat-icon-toggle-button-renderer-0 paper-icon-button.yt-live-chat-icon-toggle-button-renderer {
+    color: #bdbdbd; }
 
   /******ACCOUNT*******/
   /*card background*/
