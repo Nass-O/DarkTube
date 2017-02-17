@@ -63,3 +63,7 @@ a.yt-uix-button-epic-nav-item.selected, a.yt-uix-button-epic-nav-item.yt-uix-but
   background-color: $channel-sub-btn-bg;
   border-color: $channel-sub-btn-border;
 }
+.yt-uix-button-subscribe-unbranded:hover {
+  border-color: $channel-sub-btn-bg-hover;
+  background-color: $channel-sub-btn-border-hover;
+}

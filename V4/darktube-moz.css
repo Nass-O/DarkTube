@@ -365,6 +365,10 @@
     background-color: #2b2b2b;
     border-color: #303030; }
 
+  .yt-uix-button-subscribe-unbranded:hover {
+    border-color: #323232;
+    background-color: #3d3d3d; }
+
   /*********LIVE*********/
   /*chat*/
   #watch-sidebar-live-chat, .yt-live-chat-message-input-renderer-0, .yt-live-chat-ticker-renderer-0, .yt-live-chat-header-renderer-0 {

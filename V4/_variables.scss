@@ -78,6 +78,8 @@ $channel-module-edit-bg: darken( $bg, 2 );
 $channel-sub-btn-bg: lighten( $bg, 5 );
 $channel-sub-btn-border: lighten( $bg, 7 );
 
+$channel-sub-btn-bg-hover: lighten($channel-sub-btn-bg, 3);
+$channel-sub-btn-border-hover: lighten($channel-sub-btn-border, 5);
 
 //---Live
 //chatbox
