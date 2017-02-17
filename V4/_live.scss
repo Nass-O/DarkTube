@@ -22,3 +22,12 @@
 .yt-live-chat-message-input-renderer-0 #author-name.yt-live-chat-message-input-renderer {
   color: $gray-lighter;
 }
+
+
+.yt-live-chat-text-input-field-renderer-0 #label.yt-live-chat-text-input-field-renderer,.yt-live-chat-message-input-renderer-0 #count.yt-live-chat-message-input-renderer {
+  color: $gray-base;
+}
+
+.yt-live-chat-icon-toggle-button-renderer-0 paper-icon-button[active].yt-live-chat-icon-toggle-button-renderer {
+  color: $gray-lighter;
+}
