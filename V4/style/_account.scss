@@ -1,0 +1,29 @@
+@import "_variables.scss";
+/******ACCOUNT*******/
+
+/*card background*/
+.account-container {
+  background: $bg;
+}
+/*separator*/
+.yt-horizontal-rule {
+  border-color: $sep-base;
+}
+/*color*/
+.account-header h1 {
+  color: $gray-base;
+}
+/*SUBTEXT*/
+#creator-sidebar h3, #creator-sidebar h3 a, #creator-sidebar .creator-sidebar-section a, h3.account-section-header, .account-content {
+  color: $gray-base;
+}
+/*menu on hover*/
+#creator-sidebar .creator-sidebar-section a:hover {
+  color: $gray-base;
+  background: $bg-lighter;
+}
+
+.social-connector, .desktop-notifications .browser {
+  border-color: $border-default;
+  background: $bg-darker;
+}
