@@ -12,7 +12,9 @@
   background-color: $bg-lighter;
   border-bottom-color: $border-default;
 }
-.dashboard-widget-footer .dashboard-widget-view-all-link:hover, .vm-list-view .vm-video-item-content-horizontal-divider {
+.dashboard-widget-footer .dashboard-widget-view-all-link:hover, .vm-list-view .vm-video-item-content-horizontal-divider,
+.vm-list-view .vm-video-list .vm-video-item.selected,
+.vm-improve-video-button:hover, .vm-improve-video-close-button:hover, .vm-video-suggestion-button:hover, .vm-video-suggestion-close-button:hover {
   background: $bg-lighter;
 }
 .analytics-sparkline-card:hover {
@@ -33,6 +35,10 @@
 #non-appbar-vm-video-actions-bar .vm-video-actions-inner {
   border-bottom-color: $border-default;
 }
+.vm-improve-video-button-group:hover .vm-improve-video-button, .vm-improve-video-button-group:hover .vm-improve-video-close-button, .vm-video-suggestion:hover .vm-video-suggestion-button, .vm-video-suggestion:hover .vm-video-suggestion-close-button {
+  border-color: $border-default!important;
+  color: $gray-base;
+}
 
 /*big titles*/
 #creator-sidebar .creator-sidebar-branding h1 {
@@ -41,7 +47,8 @@
 /*common text*/
 .dashboard-widget-header h2, .dashboard-widget-header h2 a, #dashboard-header h2 a, .yt-alert-naked .yt-alert-content, .analytics-sparkline-card .infos .total,
 .analytics-sparkline-card .infos .title, .dashboard-widget-videos .video-list-item .video-title a, .yt-uix-button-menu .yt-uix-button-menu-item, #creator-subheader h2,
-.vm-list-view .vm-video-title .vm-video-title-content, .vm-list-view .vm-video-side-view-count a {
+.vm-list-view .vm-video-title .vm-video-title-content, .vm-list-view .vm-video-side-view-count a,
+#non-appbar-vm-video-actions-bar .vm-video-actions-inner #vm-view-filter-label, .vm-copyright-filter-wrapper {
   color: $gray-base;
 }
 
@@ -55,7 +62,7 @@
 }
 
 /*icons*/
-#creator-sidebar .studio-icon, .add-widget-button:hover, .add-widget-button:focus, .yt-sprite.vm-video-audioswap {
+#creator-sidebar .studio-icon, .add-widget-button:hover, .add-widget-button:focus, .yt-sprite.vm-video-audioswap, img.vm-icon-improve-video {
   -webkit-filter: $invert;
   -moz-filter: $invert;
   filter: $invert;
@@ -75,6 +82,37 @@
   background: $bg;
 }
 
+/*Live Streaming Events*/
+.live-welcome-intro {
+  background: $bg-lighter;
+  border-bottom-color: $border-default;
+}
+
+/*Community*/
+.tabbed-page .tab.active {
+  border-bottom-color: $bg;
+  background-color: $bg;
+  color: $gray-base;
+}
+.tabbed-page .tabs-area, .tabbed-page .tabs-wrapper, .tabbed-page .options-bar, #comment-settings .comment-settings-section,
+#comment-settings .comment-settings-item, .acl-target-list-container[data-which='moderator'], #comment-settings {
+  border-color: $border-default;
+}
+.tabbed-page .tab {
+  background-color: $bg-darker;
+  border-color: $border-default;
+}
+.video-dds .list {
+  border-color: $border-default;
+  background-color: $bg;
+}
+.video-dds .entry:hover .highlight, #comment-settings .comment-settings-header {
+  background-color: $bg-lighter;
+}
+#comment-settings .comment-settings-title, #comment-settings .comment-settings-label {
+  color: $gray-base;
+}
+
 /*other*/
 #dashboard-header-stats li {
   border-right-color: $border-default;
@@ -86,4 +124,7 @@
 /*fixes*/
 .add-widget-button {
   background-color: transparent!important;
+}
+#creator-sidebar>.creator-sidebar-section.selected>h3 a span {
+  filter: invert(0)!important;
 }
