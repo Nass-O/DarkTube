@@ -9,11 +9,11 @@
 .yt-horizontal-rule {
   border-color: $sep-base;
 }
-/*color*/
+/*big titles*/
 .account-header h1 {
-  color: $gray-base;
+  color: $gray-lighter;
 }
-/*SUBTEXT*/
+/*common text*/
 #creator-sidebar h3, #creator-sidebar h3 a, #creator-sidebar .creator-sidebar-section a, h3.account-section-header, .account-content {
   color: $gray-base;
 }
@@ -22,7 +22,7 @@
   color: $gray-base;
   background: $bg-lighter;
 }
-
+/*other*/
 .social-connector, .desktop-notifications .browser {
   border-color: $border-default;
   background: $bg-darker;
