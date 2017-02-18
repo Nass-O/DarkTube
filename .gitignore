@@ -1,9 +1,9 @@
-# Blacklist:
+# Blacklist :
 *.xml
 *.map
 *.iml
 *.xml___jb_tmp___
 
-# Whitelist:
+# Whitelist :
 # File Watcher for PHP Storm
 !watcherTasks.xml
