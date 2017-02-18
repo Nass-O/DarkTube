@@ -5,25 +5,40 @@
 .account-container {
   background: $bg;
 }
+
 /*separator*/
 .yt-horizontal-rule {
   border-color: $sep-base;
 }
-/*color*/
-.account-header h1 {
-  color: $gray-base;
+
+/*big titles*/
+.account-header h1, h3.pairing-section-header {
+  color: $gray-lighter;
 }
-/*SUBTEXT*/
+
+/*common text*/
 #creator-sidebar h3, #creator-sidebar h3 a, #creator-sidebar .creator-sidebar-section a, h3.account-section-header, .account-content {
   color: $gray-base;
 }
+
 /*menu on hover*/
 #creator-sidebar .creator-sidebar-section a:hover {
   color: $gray-base;
   background: $bg-lighter;
 }
 
+/*Connected TVs*/
+.howto-promo-container {
+  background-image: linear-gradient(to top,$bg-darker 0,$bg 15px);
+}
+.howto-circle {
+  color: $bg;
+}
+
+/*other*/
 .social-connector, .desktop-notifications .browser {
   border-color: $border-default;
   background: $bg-darker;
 }
+
+//todo: checkboxex

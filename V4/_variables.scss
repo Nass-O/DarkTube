@@ -1,6 +1,6 @@
 //---General
 
-$bg: #1e1e1e;
+$bg: #1a1a1a;
 $bg-darker: darken($bg,3%);
 $bg-lighter: lighten($bg,3%);
 $sep-base: lighten($bg, 6%);
@@ -16,8 +16,14 @@ $search-border:lighten( $bg, 8 );
 $input-color: #ccc;
 
 //Color
-$gray-base: #bdbdbd; //common text
-$gray-lighter: #ccc; //big titles
+//todo: different variants of colors in scale from 1 to 5 like it is on http://materializecss.com/color.html
+//EXAMPLE:
+$gray-lighten-5: #fafafa; // #000
+$gray-lighten-4: #f5f5f5; // #111
+$gray-lighten-3: #eee; // #222
+
+$gray-base: #bdbdbd; //common text #333
+$gray-lighter: #ccc; //big titles #444 & #555 ?
 $gray-dark: #878787; //subtext
 $gray-darker: #6f6f6f; //even more dark
 
@@ -85,3 +91,7 @@ $channel-sub-btn-border-hover: lighten($channel-sub-btn-border, 5);
 //chatbox
 $live-chat-bg: #292929;
 $live-chat-content-bg: $bg;
+
+//---icons
+$invert: invert(.9); // because it inverts #fff to $bg: #1a1a1a
+$invert-grayscale: invert(.9) grayscale(1);

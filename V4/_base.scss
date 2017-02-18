@@ -19,7 +19,7 @@
     filter: invert(0.1)!important;
 }
 #comment-section-renderer .comment-renderer-footer .sprite-like[data-action-on], #comment-section-renderer .comment-renderer:hover .sprite-like[data-action-on], #comment-section-renderer .comment-renderer-footer:hover .sprite-like[data-action-on],#comment-section-renderer .comment-renderer-footer .sprite-dislike[data-action-on], #comment-section-renderer .comment-renderer:hover .sprite-dislike[data-action-on], #comment-section-renderer .comment-renderer-footer:hover .sprite-dislike[data-action-on],#comment-section-renderer .comment-renderer-footer .sprite-like,#comment-section-renderer .comment-renderer-footer .sprite-dislike {
-        -webkit-filter: invert(0)!important;
+   -webkit-filter: invert(0)!important;
     -moz-filter:invert(0)!important;
     filter: invert(0)!important;
 }

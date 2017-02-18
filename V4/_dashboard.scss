@@ -1,0 +1,130 @@
+@import "_variables.scss";
+/******DASHBOARD*******/
+
+/*card background*/
+.dashboard-widget.notification, .dashboard-widget .dashboard-widget-content, .dashboard-widget .dashboard-widget-config {
+  background-color: $bg;
+  color: $gray-base;
+}
+.dashboard-widget-header:hover, .dashboard-widget .dashboard-widget-config .dashboard-widget-header,
+.dashboard-widget.yt-uix-dragdrop-dragged-item .dashboard-widget-header,
+.dashboard-widget.yt-uix-dragdrop-cursor-follower .dashboard-widget-header {
+  background-color: $bg-lighter;
+  border-bottom-color: $border-default;
+}
+.dashboard-widget-footer .dashboard-widget-view-all-link:hover, .vm-list-view .vm-video-item-content-horizontal-divider,
+.vm-list-view .vm-video-list .vm-video-item.selected,
+.vm-improve-video-button:hover, .vm-improve-video-close-button:hover, .vm-video-suggestion-button:hover, .vm-video-suggestion-close-button:hover {
+  background: $bg-lighter;
+}
+.analytics-sparkline-card:hover {
+  background: rgba(45,45,45,.5);
+}
+.video-list-item a:hover, #non-appbar-vm-video-actions-bar, #non-appbar-vm-video-actions-bar .vm-video-actions-bar,
+.vm-list-view .vm-video-list .vm-video-item, #vm-pagination {
+  background: $bg;
+}
+.dashboard-widget-header:hover .dashboard-widget-overlay-icon, .dashboard-widget.yt-uix-dragdrop-dragged-item .dashboard-widget-header .dashboard-widget-header-controls,
+.dashboard-widget.yt-uix-dragdrop-cursor-follower .dashboard-widget-header .dashboard-widget-header-controls {
+  border-left-color: $border-default;
+}
+.dashboard-widget:hover .dashboard-widget-display-title, .dashboard-widget.yt-uix-dragdrop-dragged-item .dashboard-widget-display-title,
+.dashboard-widget.yt-uix-dragdrop-cursor-follower .dashboard-widget-display-title {
+  border-right-color: $bg;
+}
+#non-appbar-vm-video-actions-bar .vm-video-actions-inner {
+  border-bottom-color: $border-default;
+}
+.vm-improve-video-button-group:hover .vm-improve-video-button, .vm-improve-video-button-group:hover .vm-improve-video-close-button, .vm-video-suggestion:hover .vm-video-suggestion-button, .vm-video-suggestion:hover .vm-video-suggestion-close-button {
+  border-color: $border-default!important;
+  color: $gray-base;
+}
+
+/*big titles*/
+#creator-sidebar .creator-sidebar-branding h1 {
+  color: $gray-lighter;
+}
+/*common text*/
+.dashboard-widget-header h2, .dashboard-widget-header h2 a, #dashboard-header h2 a, .yt-alert-naked .yt-alert-content, .analytics-sparkline-card .infos .total,
+.analytics-sparkline-card .infos .title, .dashboard-widget-videos .video-list-item .video-title a, .yt-uix-button-menu .yt-uix-button-menu-item, #creator-subheader h2,
+.vm-list-view .vm-video-title .vm-video-title-content, .vm-list-view .vm-video-side-view-count a,
+#non-appbar-vm-video-actions-bar .vm-video-actions-inner #vm-view-filter-label, .vm-copyright-filter-wrapper {
+  color: $gray-base;
+}
+
+/*text-shadow*/
+#dashboard-header h1, #dashboard-header h2, #dashboard-header h3 {
+  text-shadow: 0 1px 0 $bg;
+}
+#dashboard-header .dashboard-stat-name, #dashboard-header .add-widget-button-label, #dashboard-header .dashboard-stat-value {
+  text-shadow: 0 1px 0 $bg;
+  color: $gray-base;
+}
+
+/*icons*/
+#creator-sidebar .studio-icon, .add-widget-button:hover, .add-widget-button:focus, .yt-sprite.vm-video-audioswap, img.vm-icon-improve-video {
+  -webkit-filter: $invert;
+  -moz-filter: $invert;
+  filter: $invert;
+}
+
+/*menu*/
+#creator-sidebar>#creator-sidebar-section-id-dashboard.selected>h3 a, #creator-sidebar>#creator-sidebar-section-id-your-contributions.selected>h3 a {
+  background-color: $bg;
+}
+#creator-sidebar-separator {
+  color: $sep-base;
+}
+
+/*dropdown*/
+.yt-uix-button-menu, .yt-ui-menu-content .yt-ui-menu-item.menu-subheading, .yt-ui-menu-content .yt-ui-menu-item.menu-subheading-notice {
+  border-color: $border-default;
+  background: $bg;
+}
+
+/*Live Streaming Events*/
+.live-welcome-intro {
+  background: $bg-lighter;
+  border-bottom-color: $border-default;
+}
+
+/*Community*/
+.tabbed-page .tab.active {
+  border-bottom-color: $bg;
+  background-color: $bg;
+  color: $gray-base;
+}
+.tabbed-page .tabs-area, .tabbed-page .tabs-wrapper, .tabbed-page .options-bar, #comment-settings .comment-settings-section,
+#comment-settings .comment-settings-item, .acl-target-list-container[data-which='moderator'], #comment-settings {
+  border-color: $border-default;
+}
+.tabbed-page .tab {
+  background-color: $bg-darker;
+  border-color: $border-default;
+}
+.video-dds .list {
+  border-color: $border-default;
+  background-color: $bg;
+}
+.video-dds .entry:hover .highlight, #comment-settings .comment-settings-header {
+  background-color: $bg-lighter;
+}
+#comment-settings .comment-settings-title, #comment-settings .comment-settings-label {
+  color: $gray-base;
+}
+
+/*other*/
+#dashboard-header-stats li {
+  border-right-color: $border-default;
+}
+.chart.dashboard-widget-padded-content g text {
+  fill: rgba(170,170,170,1);
+}
+
+/*fixes*/
+.add-widget-button {
+  background-color: transparent!important;
+}
+#creator-sidebar>.creator-sidebar-section.selected>h3 a span {
+  filter: invert(0)!important;
+}
