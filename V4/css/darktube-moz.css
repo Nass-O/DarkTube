@@ -12,6 +12,14 @@
     transition: opacity .6s !important;
   }
 
+  @media (max-width: 704px) {
+    .exp-responsive #yt-masthead #logo-container {
+      background: url(https://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png) 0 no-repeat !important;
+      background-size: contain !important;
+      opacity: 0.8 !important;
+      transition: opacity .3s !important;
+    }
+  }
   /*Icons*/
   #ie .yt-uix-form-input-radio-container.checked .yt-uix-form-input-radio-element, .ie8 .yt-uix-form-input-radio-container.checked .yt-uix-form-input-radio-element, .ie7 .yt-uix-form-input-radio-container.checked .yt-uix-form-input-radio-element, .yt-uix-form-input-radio-container input:checked + .yt-uix-form-input-radio-element {
     -webkit-filter: invert(0.1) !important;
@@ -107,6 +115,10 @@
 
   body {
     background: #121212;
+  }
+
+  #theater-background {
+    background: #121212 !important;
   }
 
   .yt-ui-ellipsis {
