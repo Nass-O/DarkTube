@@ -3,7 +3,7 @@
  * Author:  Nass O
  * Version: v3
  * Latest update :
-Search bar fix
+    Fixed masthead logo on widths smaler than 704px
 
  */
 
@@ -107,6 +107,14 @@ background: #292929 ! important;
 #masthead-logo img:hover, #yt-masthead #logo-container .logo:hover, .footer-logo img:hover,#footer-logo .footer-logo-icon:hover {
     opacity: 1 !important;
     transition: opacity .6s !important;
+}
+@media (max-width:704px) {
+    .exp-responsive #yt-masthead #logo-container {
+    background: url(https://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png) 0 no-repeat!important;
+    background-size: contain!important;
+    opacity: 0.7 !important;
+    transition: opacity .3s !important;
+    }
 }
 /* Text area */
 .yt-ui-ellipsis,.yt-uix-expander-ellipsis {

@@ -34,6 +34,9 @@ body,html,.comment-section-header-renderer,#watch7-sidebar .video-list-item a:vi
 body {
   background: $bg-darker;
 }
+#theater-background {
+  background: $bg-darker !important;
+}
 .yt-ui-ellipsis {
   background: transparent;
 }
