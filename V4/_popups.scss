@@ -6,7 +6,7 @@
     border: 1px solid $border-menu;
 }
 .yt-dialog-fg-content .yt-dialog-title, .yt-uix-overlay-fg-content .yt-dialog-title,.yt-dialog-fg-content, .yt-uix-overlay-fg-content {
-  color: $gray-base;
+  color: $c-333;
 }
 .yt-uix-form-input-select {
   background: $bg-lighter;
@@ -14,5 +14,5 @@
 }
 .yt-uix-form-input-select:hover, .yt-uix-form-input-text:hover, .yt-uix-form-input-textarea:hover,.yt-uix-form-input-select, .yt-uix-form-input-text, .yt-uix-form-input-textarea {
   border-color: $bg-lighter;
-  color: $gray-base;
+  color: $c-333;
 }

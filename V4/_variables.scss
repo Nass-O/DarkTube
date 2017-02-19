@@ -3,6 +3,7 @@
 $bg: #1a1a1a;
 $bg-darker: darken($bg,3%);
 $bg-lighter: lighten($bg,3%);
+
 $sep-base: lighten($bg, 6%);
 //$sep-lighter: lighten($bg, 6%);
 
@@ -18,13 +19,15 @@ $input-color: #ccc;
 //Color
 //todo: different variants of colors in scale from 1 to 5 like it is on http://materializecss.com/color.html
 //EXAMPLE:
-$gray-lighten-5: #fafafa; // #000
-$gray-lighten-4: #f5f5f5; // #111
-$gray-lighten-3: #eee; // #222
+$c-000: #e6e6e6; // #000
+$c-111: #d8d8d8; // #111
+$c-222: #cacaca; // #222
+$c-333: #bdbdbd; // #333
+$c-444: #afafaf; // #444
+$c-555: #a2a2a2; // #555
+$c-767676: #878787; // #767676
 
-$gray-base: #bdbdbd; //common text #333
 $gray-lighter: #ccc; //big titles #444 & #555 ?
-$gray-dark: #878787; //subtext
 $gray-darker: #6f6f6f; //even more dark
 
 

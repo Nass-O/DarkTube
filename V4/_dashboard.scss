@@ -4,7 +4,7 @@
 /*card background*/
 .dashboard-widget.notification, .dashboard-widget .dashboard-widget-content, .dashboard-widget .dashboard-widget-config {
   background-color: $bg;
-  color: $gray-base;
+  color: $c-333;
 }
 .dashboard-widget-header:hover, .dashboard-widget .dashboard-widget-config .dashboard-widget-header,
 .dashboard-widget.yt-uix-dragdrop-dragged-item .dashboard-widget-header,
@@ -37,7 +37,7 @@
 }
 .vm-improve-video-button-group:hover .vm-improve-video-button, .vm-improve-video-button-group:hover .vm-improve-video-close-button, .vm-video-suggestion:hover .vm-video-suggestion-button, .vm-video-suggestion:hover .vm-video-suggestion-close-button {
   border-color: $border-default!important;
-  color: $gray-base;
+  color: $c-333;
 }
 
 /*big titles*/
@@ -49,7 +49,7 @@
 .analytics-sparkline-card .infos .title, .dashboard-widget-videos .video-list-item .video-title a, .yt-uix-button-menu .yt-uix-button-menu-item, #creator-subheader h2,
 .vm-list-view .vm-video-title .vm-video-title-content, .vm-list-view .vm-video-side-view-count a,
 #non-appbar-vm-video-actions-bar .vm-video-actions-inner #vm-view-filter-label, .vm-copyright-filter-wrapper {
-  color: $gray-base;
+  color: $c-333;
 }
 
 /*text-shadow*/
@@ -58,13 +58,12 @@
 }
 #dashboard-header .dashboard-stat-name, #dashboard-header .add-widget-button-label, #dashboard-header .dashboard-stat-value {
   text-shadow: 0 1px 0 $bg;
-  color: $gray-base;
+  color: $c-333;
 }
 
 /*icons*/
 #creator-sidebar .studio-icon, .add-widget-button:hover, .add-widget-button:focus, .yt-sprite.vm-video-audioswap, img.vm-icon-improve-video {
   -webkit-filter: $invert;
-  -moz-filter: $invert;
   filter: $invert;
 }
 
@@ -92,7 +91,7 @@
 .tabbed-page .tab.active {
   border-bottom-color: $bg;
   background-color: $bg;
-  color: $gray-base;
+  color: $c-333;
 }
 .tabbed-page .tabs-area, .tabbed-page .tabs-wrapper, .tabbed-page .options-bar, #comment-settings .comment-settings-section,
 #comment-settings .comment-settings-item, .acl-target-list-container[data-which='moderator'], #comment-settings {
@@ -110,7 +109,7 @@
   background-color: $bg-lighter;
 }
 #comment-settings .comment-settings-title, #comment-settings .comment-settings-label {
-  color: $gray-base;
+  color: $c-333;
 }
 
 /*other*/

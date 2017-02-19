@@ -18,12 +18,12 @@
 
 /*common text*/
 #creator-sidebar h3, #creator-sidebar h3 a, #creator-sidebar .creator-sidebar-section a, h3.account-section-header, .account-content {
-  color: $gray-base;
+  color: $c-333;
 }
 
 /*menu on hover*/
 #creator-sidebar .creator-sidebar-section a:hover {
-  color: $gray-base;
+  color: $c-333;
   background: $bg-lighter;
 }
 

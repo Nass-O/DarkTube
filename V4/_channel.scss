@@ -1,13 +1,13 @@
 @import "_variables.scss";
 /******CHANNEL*******/
 
-/* my channel */
+/* channel */
 .channel-header .secondary-header-contents {
   background: $bg;
   border-bottom-color: $border-default;
 }
 .secondary-header-contents .nav-text {
-  color: $gray-base;
+  color: $c-333;
 }
 #c4-header-bg-container {
   border-bottom-color: $border-default;
@@ -18,7 +18,15 @@
 .branded-page-v2-primary-col .yt-uix-inlineedit-view-container .branded-page-box {
   border-color: $border-default;
 }
-
+.video-player-view-component,.video-player-view-component .view-count .count {
+  color: $c-555;
+}
+.yt-uix-expander-ellipsis {
+  background: transparent;
+}
+.branded-page-v2-primary-col .branded-page-box:last-child.video-player-view-component, .branded-page-v2-primary-col .branded-page-box:last-child.c4-featured-content, .branded-page-v2-primary-col .branded-page-box:last-child.c4-featured-content-editor, .branded-page-v2-primary-col .branded-page-box:last-child.welcome {
+  border-color: $sep-base !important;
+}
 /* Navbar */
 #masthead-appbar {
   background: $bg;
@@ -43,10 +51,10 @@ a.yt-uix-button-epic-nav-item.selected, a.yt-uix-button-epic-nav-item.yt-uix-but
     color: $gray-lighter;
 }
 .c4-module-editor-form .yt-uix-form-input-text, .c4-module-editor-form .yt-uix-form-input-select, .c4-module-editor-form .yt-uix-form-input-textarea {
-  color: $gray-base;
+  color: $c-333;
 }
 .empty-shelf-text {
-  color: $gray-dark;
+  color: $c-767676;
 }
 
 //hover
@@ -56,7 +64,7 @@ a.yt-uix-button-epic-nav-item.selected, a.yt-uix-button-epic-nav-item.yt-uix-but
 
 /*Popular channels*/
 .branded-page-related-channels h3 a, .branded-page-related-channels h3 {
-  color: $gray-base;
+  color: $c-333;
 }
 //subscribe button
 .yt-uix-button-subscribe-unbranded, .yt-uix-button-subscribe-unbranded[disabled], .yt-uix-button-subscribe-unbranded[disabled]:hover, .yt-uix-button-subscribe-unbranded[disabled]:active, .yt-uix-button-subscribe-unbranded[disabled]:focus {
@@ -67,3 +75,4 @@ a.yt-uix-button-epic-nav-item.selected, a.yt-uix-button-epic-nav-item.yt-uix-but
   border-color: $channel-sub-btn-bg-hover;
   background-color: $channel-sub-btn-border-hover;
 }
+

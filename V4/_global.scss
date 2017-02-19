@@ -10,10 +10,17 @@ input[type="radio"] {
 }
 /*--- color */
 body,html,.comment-section-header-renderer,#watch7-sidebar .video-list-item a:visited .title, #watch7-sidebar .video-list-item a:visited .title .yt-deemphasized-text,#watch-description,#action-panel-details a,.watch-view-count,.yt-uix-button-content,#watch-headline-title,h1.watch-title-container,#watch-header .yt-user-info a,.title,.video-list .video-list-item .title,.guide-item,.branded-page-module-title a:visited, .branded-page-module-title a,.branded-page-module-title {
-  color: $gray-base;
+  color: $c-333;
 }
 .yt-uix-button-arrow {
-  border-top-color: $gray-base;
+  border-top-color: $c-333;
+}
+/*up next video*/
+#watch7-sidebar .watch-sidebar-head {
+  color: $c-222;
+}
+.autoplay-bar .checkbox-on-off {
+  color: $c-767676;
 }
 /* link color */
 .comment-author-text,#action-panel-details:hover a,#watch7-sidebar .video-list-item a:hover:visited .title, #watch7-sidebar .video-list-item a:hover:visited .title .yt-deemphasized-text,

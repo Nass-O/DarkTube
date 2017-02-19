@@ -9,7 +9,7 @@
 }
 .comment-simplebox-renderer-collapsed-content,.comment-simplebox-frame {
     border-color: $sep-base;
-    color: $gray-base;
+    color: $c-333;
 }
 .comment-simplebox-arrow .arrow-inner {
   border: 7px solid $bg;
@@ -22,7 +22,7 @@
   }
 
 .comment-simplebox-text, .comment-simplebox-prompt {
-  color: $gray-base;
+  color: $c-333;
 }
 
 /*show replies on comment*/

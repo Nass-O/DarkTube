@@ -17,11 +17,11 @@
 
 //chat msg
 .yt-live-chat-text-message-renderer-0 #message.yt-live-chat-text-message-renderer {
-  color: $gray-base;
+  color: $c-333;
 }
 //chat author-name
 .yt-live-chat-text-message-renderer-0 #content.yt-live-chat-text-message-renderer {
-  color: $gray-dark;
+  color: $c-767676;
 }
 //name
 .yt-live-chat-message-input-renderer-0 #author-name.yt-live-chat-message-input-renderer {
@@ -30,14 +30,14 @@
 
 
 .yt-live-chat-text-input-field-renderer-0 #label.yt-live-chat-text-input-field-renderer,.yt-live-chat-message-input-renderer-0 #count.yt-live-chat-message-input-renderer {
-  color: $gray-dark;
+  color: $c-767676;
 }
 
-.yt-live-chat-icon-toggle-button-renderer-0 paper-icon-button[active].yt-live-chat-icon-toggle-button-renderer,.yt-live-chat-header-renderer-0,.yt-live-chat-header-renderer-0 #action-buttons.yt-live-chat-header-renderer > *.yt-live-chat-header-renderer, .yt-live-chat-header-renderer-0 #overflow.yt-live-chat-header-renderer,.yt-live-chat-text-message-renderer-0 #menu.yt-live-chat-text-message-renderer {
+.yt-live-chat-icon-toggle-button-renderer-0 [active].yt-live-chat-icon-toggle-button-renderer,.yt-live-chat-header-renderer-0,.yt-live-chat-header-renderer-0 #action-buttons.yt-live-chat-header-renderer > *.yt-live-chat-header-renderer, .yt-live-chat-header-renderer-0 #overflow.yt-live-chat-header-renderer,.yt-live-chat-text-message-renderer-0 #menu.yt-live-chat-text-message-renderer {
   color: $gray-lighter;
 }
-.yt-live-chat-icon-toggle-button-renderer-0 paper-icon-button.yt-live-chat-icon-toggle-button-renderer {
-  color: $gray-base;
+.yt-live-chat-icon-toggle-button-renderer-0 .yt-live-chat-icon-toggle-button-renderer {
+  color: $c-333;
 }
 
 //todo
