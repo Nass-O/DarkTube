@@ -1196,6 +1196,32 @@ rect[fill="#cccccc"] {
 #exp-cont {
     background-color: #131313;
     }
+.yt-pl-thumb .popoutmode,
+.thumb-wrapper .popoutmode,
+.yt-lockup-thumbnail .popoutmode,
+.yt-pl-thumb .blacklist,
+.thumb-wrapper .blacklist,
+.yt-lockup-thumbnail .blacklist {
+    background-color: #1C1C1C;
+    border: 1px solid #2A2A2A;
+    border-radius: 2px;
+    color: #C3C3C3;
+    cursor: pointer;
+    line-height: 1;
+    position: absolute;
+    z-index: 99;
+    width: 0;
+    height: 0;
+    padding: 10px;
+}
+.thumb-svg {
+    width: 10px;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    fill: #b9b9b9;
+}
+
+
 
 /* Purchase Page */
 h2.purchases-title {
