@@ -81,6 +81,30 @@
   background: $bg;
 }
 
+
+/*Video manager*/
+.iph-dialog {
+  background: $bg-lighter;
+  border-color: $border-menu;
+  color: $c-555;
+}
+.iph-dialog-content {
+  color: $c-555;
+}
+.iph-dialog-pointer-down {
+  filter: invert(.87);
+}
+.yt-badge {
+  border-color: $border-default;
+  color: $c-444;
+}
+.menu-item-top-divider {
+  border-top-color: $border-darker;
+}
+.vm-list-view .vm-video-metrics a:hover {
+  background: $bg-lighter;
+}
+
 /*Live Streaming Events*/
 .live-welcome-intro {
   background: $bg-lighter;

@@ -684,6 +684,34 @@
     background: #1a1a1a;
   }
 
+  /*Video manager*/
+  .iph-dialog {
+    background: #222222;
+    border-color: #1f1f1f;
+    color: #a2a2a2;
+  }
+
+  .iph-dialog-content {
+    color: #a2a2a2;
+  }
+
+  .iph-dialog-pointer-down {
+    filter: invert(0.87);
+  }
+
+  .yt-badge {
+    border-color: #2e2e2e;
+    color: #afafaf;
+  }
+
+  .menu-item-top-divider {
+    border-top-color: #292929;
+  }
+
+  .vm-list-view .vm-video-metrics a:hover {
+    background: #222222;
+  }
+
   /*Live Streaming Events*/
   .live-welcome-intro {
     background: #222222;
