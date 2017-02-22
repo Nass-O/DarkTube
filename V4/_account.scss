@@ -35,10 +35,22 @@
   color: $bg;
 }
 
+/*Checkboxes*/
+.yt-uix-form-input-checkbox-container input:checked+.yt-uix-form-input-checkbox-element {
+  background-image: url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vflm-serG.webp);
+  background-position: -197px -243px;
+}
+
+/*Popups arrow*/
+.yt-uix-clickcard-card-flip .yt-uix-card-body-arrow-horizontal, .yt-uix-hovercard-card-flip .yt-uix-card-body-arrow-horizontal {
+  border-right-color: $bg;
+}
+.yt-uix-clickcard-card-flip .yt-uix-card-border-arrow-horizontal, .yt-uix-hovercard-card-flip .yt-uix-card-border-arrow-horizontal {
+  border-right-color: $border-darker;
+}
+
 /*other*/
 .social-connector, .desktop-notifications .browser {
   border-color: $border-default;
   background: $bg-darker;
 }
-
-//todo: checkboxex

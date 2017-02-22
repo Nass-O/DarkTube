@@ -94,7 +94,8 @@
   color: $c-333;
 }
 .tabbed-page .tabs-area, .tabbed-page .tabs-wrapper, .tabbed-page .options-bar, #comment-settings .comment-settings-section,
-#comment-settings .comment-settings-item, .acl-target-list-container[data-which='moderator'], #comment-settings {
+#comment-settings .comment-settings-item, .acl-target-list-container[data-which='moderator'], #comment-settings,
+.subscribers-table td, .yt-channel-msg-dialog .user-box {
   border-color: $border-default;
 }
 .tabbed-page .tab {
@@ -110,6 +111,207 @@
 }
 #comment-settings .comment-settings-title, #comment-settings .comment-settings-label {
   color: $c-333;
+}
+.subscribers-table .subscribers-table-header {
+  border-color: $border-default;
+  color: $gray-lighter;
+}
+.subscribers-table .subscribed-since, .subscribers-table .description-text a, #comment-settings label {
+  color: $gray-lighter;
+}
+.yt-channel-msg-dialog .yt-dialog-footer {
+  background-color: $bg-lighter;
+}
+.yt-dialog-base, .yt-uix-overlay-base {
+  background: rgba(0,0,0,.75);
+}
+
+/*Channel*/
+.account-status-v2, .account-status-scales, #creator-subheader, .account-content .account-section.account-bordered-section {
+  border-color: $border-default;
+}
+.account-feature-v2-grid-items li {
+  background-color: $bg-darker;
+  border-color: $border-darker;
+}
+.account-feature-v2-grid-items .account-features-v2-grid-item-title {
+  border-color: $border-darker;
+}
+.account-features-v2-content, .account-feature-v2-grid-items .account-features-v2-grid-item-description a {
+  color: $gray-lighter;
+}
+.yt-default p, p.yt, ol.yt, ul.yt, .yt-default ol, .yt-default ul {
+  color: $c-333;
+}
+.monetization-content .example {
+  background-color: $bg-darker;
+}
+
+/*Analytics*/
+.HPHGCHB-b-d, .HPHGCHB-R-D, .HPHGCHB-kb-p, .HPHGCHB-kb-i, .HPHGCHB-kb-m, .HPHGCHB-R-h, .HPHGCHB-f-a, .HPHGCHB-W-o .HPHGCHB-W-w td, .HPHGCHB-M-b,
+.HPHGCHB-hb-b, .HPHGCHB-hb-b .gwt-viz-container, .HPHGCHB-W-o, .HPHGCHB-W-c, .HPHGCHB-F-j {
+  background-color: $bg;
+}
+.HPHGCHB-d-a .HPHGCHB-d-b, .HPHGCHB-P-g h2 a, .HPHGCHB-R-w, .HPHGCHB-R-b, .HPHGCHB-R-l .HPHGCHB-f-c:hover .HPHGCHB-f-f, .HPHGCHB-R-l .HPHGCHB-f-h .HPHGCHB-f-f, .HPHGCHB-b-c,
+.HPHGCHB-ob-d, .HPHGCHB-W-q .HPHGCHB-W-F {
+  color: $c-222;
+}
+.HPHGCHB-R-s .HPHGCHB-R-B, .HPHGCHB-R-e {
+  color: $c-333;
+}
+#creator-sidebar .creator-sidebar-submenu h3 {
+  color: $c-555;
+}
+.HPHGCHB-ab-e {
+  border-top-color: $bg!important;
+}
+.HPHGCHB-R-m, .HPHGCHB-kb-y {
+  border-top-color: $border-default;
+}
+.HPHGCHB-t-a, .HPHGCHB-R-C .HPHGCHB-R-x, .HPHGCHB-kb-y tr,
+.HPHGCHB-W-o th, .HPHGCHB-W-o td, .HPHGCHB-W-c th, .HPHGCHB-W-c td {
+  border-bottom-color: $border-default;
+}
+.HPHGCHB-R-x, .HPHGCHB-R-c, .HPHGCHB-R-z {
+  border-right-color: $border-default;
+}
+.HPHGCHB-T-d {
+  border-top-color: $border-default;
+  border-bottom-color: $border-default;
+}
+.HPHGCHB-P-j, .HPHGCHB-kb-b, .HPHGCHB-W-u, .HPHGCHB-K-c, .HPHGCHB-n-c {
+  filter: $invert;
+}
+.HPHGCHB-R-p:hover, .HPHGCHB-R-c:hover, .HPHGCHB-kb-r {
+  background-color: $bg-lighter;
+}
+.HPHGCHB-R-j ellipse {
+  stroke: $bg;
+}
+.gwt-viz-container rect {
+  fill: $border-default;
+}
+.HPHGCHB-M-e {
+  border-bottom-color: $border-default;
+  background-color: $bg;
+}
+/*buttons-start*/
+.HPHGCHB-g-f {
+  background: $btn-def-bg;
+  border-color: $btn-def-border;
+  color: $c-333;
+  text-shadow: 0 1px 0 rgba(0,0,0,.5);
+}
+.HPHGCHB-g-v:hover, .HPHGCHB-g-f:hover, .HPHGCHB-g-w:hover {
+  background: $btn-def-bg-hover;
+  border-color: $btn-def-border-hover;
+  color: $gray-lighter;
+}
+.HPHGCHB-g-f:focus, .HPHGCHB-g-v:focus, .HPHGCHB-g-w:focus {
+  -moz-box-shadow: 0 0 5px rgba(63,118,183,0.5),inset 0 0 10px $bg;
+  -ms-box-shadow: 0 0 5px rgba(63,118,183,0.5),inset 0 0 10px $bg;
+  -webkit-box-shadow: 0 0 5px rgba(63,118,183,0.5), inset 0 0 10px $bg;
+  box-shadow: 0 0 5px rgba(63,118,183,0.5), inset 0 0 10px $bg;
+}
+.HPHGCHB-g-v:active, .HPHGCHB-g-f:active, .HPHGCHB-g-w:active, .HPHGCHB-g-f.HPHGCHB-g-y {
+  border-color: $btn-def-border;
+  background: $btn-def-bg;
+}
+/*buttons-stop*/
+
+/*Translations*/
+.yt-uix-overlay-actions {
+  background: $bg-lighter;
+}
+.caption-queue {
+  color: $c-333;
+}
+.yt-uix-clickcard-card-body, .yt-uix-hovercard-card-body {
+  color: $gray-lighter;
+}
+
+/*Create*/
+#main-title,
+.asset-sound-recording-section, .asset-composition-section, .music-attribution-monetization-section,
+.music-attribution-no-monetization-section, .music-no-attribution-monetization-section, .music-no-attribution-no-monetization-section,
+.asset-restrictions-header, .asset-monetization-header, .asset-stores-header,
+.asset-restrictions-list div, .asset-monetization-list div, .asset-stores-list div,
+.drag-to-begin-message p, .drag-to-begin-audio-message p {
+  color: $c-333;
+}
+.audio-library-tab-subtitle {
+  color: $c-767676;
+}
+.track-list li.track {
+  background-color: $bg;
+}
+.track-list li.track:hover {
+  background-color: $bg-lighter;
+}
+.track:hover .audiolibrary-track-head .audiolibrary-column, .track.loading .audiolibrary-track-head .audiolibrary-column, .track.expanded .audiolibrary-track-head .audiolibrary-column,
+.audiolibrary-column-genre-and-mood a:hover, .mediapicker-audio.audio-track .audio-title {
+  color: $c-000;
+}
+.audiolibrary-column-title, .audiolibrary-column-title-expand {
+  color: $c-222;
+}
+.top-menu, .track-list li.track {
+  border-bottom-color: $border-default;
+}
+#audio-library-track-footer, .asset-available-footer, .asset-not-available-text {
+  color: $c-555;
+}
+.track .expand-button .track-action-icon, .menu-tab img, img.storyboard-icon {
+  filter: $invert
+}
+.track-list li.track.expanded {
+  background-color: $bg-lighter;
+  border-bottom-color: $bg;
+}
+#top-bar, #advertising-note, .yt-card .yt-uix-tabs {
+  border-color: $border-default;
+}
+#storyboard {
+  background-color: $bg-lighter;
+  border-color: $border-default;
+}
+.no-flash-error {
+  background: $bg-darker;
+}
+
+/*Your Contributions*/
+.caption-queue th, .caption-queue td {
+  border-bottom-color: $border-default;
+}
+.caption-queue .contribution-title a, .captions-editor-nav-tabs li>span, .captions-editor-nav-tabs li a, .auto-pause-checkbox-section {
+  color: $c-333;
+}
+.original-event-text, .translated-event-text, .review-event-text {
+  color: $c-555;
+}
+#creator-editor-container, .timedtext-content, #event-line-editor::-webkit-scrollbar-track-piece, .waveform-player {
+  background: $bg;
+}
+#event-line-editor::-webkit-scrollbar-thumb {
+  border-left-color: $bg;
+}
+.timed-event-line {
+  border-bottom-color: $border-darker;
+}
+#bottom-notes-section, #event-line-editor, #captions-editor-nav, .creator-editor-header, .button-with-separator .separator {
+  border-color: $border-default;
+}
+.timing-readonly .event-text {
+  outline: 1px solid $border-default;
+}
+.timed-event-line.timed-event-line-focused {
+  background-color: $bg-darker;
+}
+.timed-event-line:hover {
+  background-color: $bg-lighter;
+}
+.zoom-icon-container, .zoom-slider {
+  filter: $invert;
 }
 
 /*other*/
