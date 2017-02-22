@@ -6,30 +6,23 @@
   background-color: $bg;
   color: $c-333;
 }
-.dashboard-widget-header:hover, .dashboard-widget .dashboard-widget-config .dashboard-widget-header,
-.dashboard-widget.yt-uix-dragdrop-dragged-item .dashboard-widget-header,
-.dashboard-widget.yt-uix-dragdrop-cursor-follower .dashboard-widget-header {
+.dashboard-widget-header:hover, .dashboard-widget .dashboard-widget-config .dashboard-widget-header, .dashboard-widget.yt-uix-dragdrop-dragged-item .dashboard-widget-header, .dashboard-widget.yt-uix-dragdrop-cursor-follower .dashboard-widget-header {
   background-color: $bg-lighter;
   border-bottom-color: $border-default;
 }
-.dashboard-widget-footer .dashboard-widget-view-all-link:hover, .vm-list-view .vm-video-item-content-horizontal-divider, .dashboard-widget-todos .todo-item:hover,
-.vm-list-view .vm-video-list .vm-video-item.selected,
-.vm-improve-video-button:hover, .vm-improve-video-close-button:hover, .vm-video-suggestion-button:hover, .vm-video-suggestion-close-button:hover {
+.dashboard-widget-footer .dashboard-widget-view-all-link:hover, .vm-list-view .vm-video-item-content-horizontal-divider, .dashboard-widget-todos .todo-item:hover, .vm-list-view .vm-video-list .vm-video-item.selected, .vm-improve-video-button:hover, .vm-improve-video-close-button:hover, .vm-video-suggestion-button:hover, .vm-video-suggestion-close-button:hover {
   background: $bg-lighter;
 }
 .analytics-sparkline-card:hover {
   background: rgba(45,45,45,.5);
 }
-.video-list-item a:hover, #non-appbar-vm-video-actions-bar, #non-appbar-vm-video-actions-bar .vm-video-actions-bar,
-.vm-list-view .vm-video-list .vm-video-item, #vm-pagination {
+.video-list-item a:hover, #non-appbar-vm-video-actions-bar, #non-appbar-vm-video-actions-bar .vm-video-actions-bar, .vm-list-view .vm-video-list .vm-video-item, #vm-pagination {
   background: $bg;
 }
-.dashboard-widget-header:hover .dashboard-widget-overlay-icon, .dashboard-widget.yt-uix-dragdrop-dragged-item .dashboard-widget-header .dashboard-widget-header-controls,
-.dashboard-widget.yt-uix-dragdrop-cursor-follower .dashboard-widget-header .dashboard-widget-header-controls {
+.dashboard-widget-header:hover .dashboard-widget-overlay-icon, .dashboard-widget.yt-uix-dragdrop-dragged-item .dashboard-widget-header .dashboard-widget-header-controls, .dashboard-widget.yt-uix-dragdrop-cursor-follower .dashboard-widget-header .dashboard-widget-header-controls {
   border-left-color: $border-default;
 }
-.dashboard-widget:hover .dashboard-widget-display-title, .dashboard-widget.yt-uix-dragdrop-dragged-item .dashboard-widget-display-title,
-.dashboard-widget.yt-uix-dragdrop-cursor-follower .dashboard-widget-display-title {
+.dashboard-widget:hover .dashboard-widget-display-title, .dashboard-widget.yt-uix-dragdrop-dragged-item .dashboard-widget-display-title, .dashboard-widget.yt-uix-dragdrop-cursor-follower .dashboard-widget-display-title {
   border-right-color: $bg;
 }
 #non-appbar-vm-video-actions-bar .vm-video-actions-inner {
@@ -48,11 +41,7 @@
   color: $gray-lighter;
 }
 /*common text*/
-.dashboard-widget-header h2, .dashboard-widget-header h2 a, #dashboard-header h2 a, .yt-alert-naked .yt-alert-content, .analytics-sparkline-card .infos .total,
-.analytics-sparkline-card .infos .title, .dashboard-widget-videos .video-list-item .video-title a, .yt-uix-button-menu .yt-uix-button-menu-item, #creator-subheader h2,
-.vm-list-view .vm-video-title .vm-video-title-content, .vm-list-view .vm-video-side-view-count a,
-#non-appbar-vm-video-actions-bar .vm-video-actions-inner #vm-view-filter-label, .vm-copyright-filter-wrapper,
-.dashboard-widget-comments .comment-header a, .dashboard-widget-comments .comment-comment {
+.dashboard-widget-header h2, .dashboard-widget-header h2 a, #dashboard-header h2 a, .yt-alert-naked .yt-alert-content, .analytics-sparkline-card .infos .total, .analytics-sparkline-card .infos .title, .dashboard-widget-videos .video-list-item .video-title a, .yt-uix-button-menu .yt-uix-button-menu-item, #creator-subheader h2, .vm-list-view .vm-video-title .vm-video-title-content, .vm-list-view .vm-video-side-view-count a, #non-appbar-vm-video-actions-bar .vm-video-actions-inner #vm-view-filter-label, .vm-copyright-filter-wrapper, .dashboard-widget-comments .comment-header a, .dashboard-widget-comments .comment-comment {
   color: $c-333;
 }
 
@@ -92,15 +81,13 @@
   border-color: $border-menu;
   color: $c-555;
 }
-.iph-dialog-content, .iph-dialog-title, .blur-effect-entry .blur-effect-explanation, .blur-effect-footnote, #audio-ui, .timeline-ruler .rulabel,
-.endscreen-editor-toggle-preview>label {
+.iph-dialog-content, .iph-dialog-title, .blur-effect-entry .blur-effect-explanation, .blur-effect-footnote, #audio-ui, .timeline-ruler .rulabel, .endscreen-editor-toggle-preview>label {
   color: $c-555;
 }
 div[class^="iph-dialog-pointer"], div[class^="yt-uix-card-border-arrow"] {
   filter: invert(.87);
 }
-span[class^="creator-editor-icon"], .yt-close-img, .box-close-link img, .yt-uix-clickcard-close, .close-small, .timeline-zoomslider .slider-icon,
-.timeline-zoomslider .goog-slider-horizontal {
+span[class^="creator-editor-icon"], .yt-close-img, .box-close-link img, .yt-uix-clickcard-close, .close-small, .timeline-zoomslider .slider-icon, .timeline-zoomslider .goog-slider-horizontal {
   filter: $invert;
 }
 .yt-badge {
@@ -110,10 +97,7 @@ span[class^="creator-editor-icon"], .yt-close-img, .box-close-link img, .yt-uix-
 .menu-item-top-divider, .add-to-widget .playlists {
   border-color: $border-darker;
 }
-.creator-editor-nav, .metadata-editor-container .subnav,
-.translation-editor-header .translation-editor-column-half, .translation-editor-header .translation-editor-column-divider,
-.creator-editor-content #inline-editor-header, #enhance-footer, .tab-container, .blur-effect-entry,
-#annotator-select-div, #annotator-add-div, #add-captions-section {
+.creator-editor-nav, .metadata-editor-container .subnav, .translation-editor-header .translation-editor-column-half, .translation-editor-header .translation-editor-column-divider, .creator-editor-content #inline-editor-header, #enhance-footer, .tab-container, .blur-effect-entry, #annotator-select-div, #annotator-add-div, #add-captions-section {
   border-color: $border-default;
 }
 .vm-list-view .vm-video-metrics a:hover, .audio-ui-featured-row:hover {
@@ -122,10 +106,7 @@ span[class^="creator-editor-icon"], .yt-close-img, .box-close-link img, .yt-uix-
 .metadata-container, .metadata-editor-container .video-settings-form, #inline-editor-main, .annotator-endscreen-splash, .multitrack-timeline, .timeline-row {
   background: $bg;
 }
-.creator-editor-nav-tabs li>span, .creator-editor-nav-tabs li a, .creator-editor-title a, .iph-dialog a,
-.tabs .tab-header.selected a, .tabs .tab-header a:hover, .tabs .tab-header:hover a, .tabs .tab-header a:focus,
-.metadata-container h3, .single-field, .menu-tab:hover, .menu-tab.selected, .enhance-effect .slider-readout, .enhance-effect .property-title,
-.blur-effect-entry .blur-effect-title, #caption-track-lists h3, .add-to-widget .addto-playlist-item, .add-to-widget .create-playlist-item {
+.creator-editor-nav-tabs li>span, .creator-editor-nav-tabs li a, .creator-editor-title a, .iph-dialog a, .tabs .tab-header.selected a, .tabs .tab-header a:hover, .tabs .tab-header:hover a, .tabs .tab-header a:focus, .metadata-container h3, .single-field, .menu-tab:hover, .menu-tab.selected, .enhance-effect .slider-readout, .enhance-effect .property-title, .blur-effect-entry .blur-effect-title, #caption-track-lists h3, .add-to-widget .addto-playlist-item, .add-to-widget .create-playlist-item {
   color: $c-333;
 }
 #audio-ui-pagefold {
@@ -169,9 +150,7 @@ span[class^="creator-editor-icon"], .yt-close-img, .box-close-link img, .yt-uix-
   background-color: $bg;
   color: $c-333;
 }
-.tabbed-page .tabs-area, .tabbed-page .tabs-wrapper, .tabbed-page .options-bar, #comment-settings .comment-settings-section,
-#comment-settings .comment-settings-item, .acl-target-list-container[data-which='moderator'], #comment-settings,
-.subscribers-table td, .yt-channel-msg-dialog .user-box {
+.tabbed-page .tabs-area, .tabbed-page .tabs-wrapper, .tabbed-page .options-bar, #comment-settings .comment-settings-section, #comment-settings .comment-settings-item, .acl-target-list-container[data-which='moderator'], #comment-settings, .subscribers-table td, .yt-channel-msg-dialog .user-box {
   border-color: $border-default;
 }
 .tabbed-page .tab {
@@ -188,6 +167,9 @@ span[class^="creator-editor-icon"], .yt-close-img, .box-close-link img, .yt-uix-
 #comment-settings .comment-settings-title, #comment-settings .comment-settings-label {
   color: $c-333;
 }
+.comments .comment-footer-action, .creator-subheader-help-text {
+  color: $c-555;
+}
 .subscribers-table .subscribers-table-header {
   border-color: $border-default;
   color: $gray-lighter;
@@ -195,11 +177,28 @@ span[class^="creator-editor-icon"], .yt-close-img, .box-close-link img, .yt-uix-
 .subscribers-table .subscribed-since, .subscribers-table .description-text a, #comment-settings label {
   color: $gray-lighter;
 }
-.yt-channel-msg-dialog .yt-dialog-footer {
+.yt-channel-msg-dialog .yt-dialog-footer, .commenthub .comments .mod-buttonbar .mod-button-content:hover {
   background-color: $bg-lighter;
 }
 .yt-dialog-base, .yt-uix-overlay-base {
   background: rgba(0,0,0,.75);
+}
+.comments .mod-button .default-state {
+  filter: $invert;
+}
+.comments .comment-item:hover .mod-buttonbar, .comments .comment-item:hover .mod-buttonbar .mod-button {
+  color: $c-000;
+  border-color: $border-default;
+}
+.comments .paginator {
+  background: $btn-def-bg;
+  border-color: $btn-def-border;
+  color: $c-333;
+}
+.comments .paginator:hover {
+  background: $btn-def-bg-hover;
+  border-color: $btn-def-border-hover;
+  color: $gray-lighter;
 }
 
 /*Channel*/
@@ -216,20 +215,22 @@ span[class^="creator-editor-icon"], .yt-close-img, .box-close-link img, .yt-uix-
 .account-features-v2-content, .account-feature-v2-grid-items .account-features-v2-grid-item-description a {
   color: $gray-lighter;
 }
-.yt-default p, p.yt, ol.yt, ul.yt, .yt-default ol, .yt-default ul {
+.yt-default p, p.yt, ol.yt, ul.yt, .yt-default ol, .yt-default ul, .channel-watermark-uploader-content .upload-guidelines {
   color: $c-333;
 }
 .monetization-content .example {
   background-color: $bg-darker;
 }
+.featured-programming-editor .overview {
+  background-color: $bg;
+  border-color: $border-default;
+}
 
 /*Analytics*/
-.HPHGCHB-b-d, .HPHGCHB-R-D, .HPHGCHB-kb-p, .HPHGCHB-kb-i, .HPHGCHB-kb-m, .HPHGCHB-R-h, .HPHGCHB-f-a, .HPHGCHB-W-o .HPHGCHB-W-w td, .HPHGCHB-M-b,
-.HPHGCHB-hb-b, .HPHGCHB-hb-b .gwt-viz-container, .HPHGCHB-W-o, .HPHGCHB-W-c, .HPHGCHB-F-j {
+.HPHGCHB-b-d, .HPHGCHB-R-D, .HPHGCHB-kb-p, .HPHGCHB-kb-i, .HPHGCHB-kb-m, .HPHGCHB-R-h, .HPHGCHB-f-a, .HPHGCHB-W-o .HPHGCHB-W-w td, .HPHGCHB-M-b, .HPHGCHB-hb-b, .HPHGCHB-hb-b .gwt-viz-container, .HPHGCHB-W-o, .HPHGCHB-W-c, .HPHGCHB-F-j {
   background-color: $bg;
 }
-.HPHGCHB-d-a .HPHGCHB-d-b, .HPHGCHB-P-g h2 a, .HPHGCHB-R-w, .HPHGCHB-R-b, .HPHGCHB-R-l .HPHGCHB-f-c:hover .HPHGCHB-f-f, .HPHGCHB-R-l .HPHGCHB-f-h .HPHGCHB-f-f, .HPHGCHB-b-c,
-.HPHGCHB-ob-d, .HPHGCHB-W-q .HPHGCHB-W-F, .HPHGCHB-L-p, .HPHGCHB-L-n {
+.HPHGCHB-d-a .HPHGCHB-d-b, .HPHGCHB-P-g h2 a, .HPHGCHB-R-w, .HPHGCHB-R-b, .HPHGCHB-R-l .HPHGCHB-f-c:hover .HPHGCHB-f-f, .HPHGCHB-R-l .HPHGCHB-f-h .HPHGCHB-f-f, .HPHGCHB-b-c, .HPHGCHB-ob-d, .HPHGCHB-W-q .HPHGCHB-W-F, .HPHGCHB-L-p, .HPHGCHB-L-n {
   color: $c-222;
 }
 .HPHGCHB-R-s .HPHGCHB-R-B, .HPHGCHB-R-e {
@@ -244,8 +245,7 @@ span[class^="creator-editor-icon"], .yt-close-img, .box-close-link img, .yt-uix-
 .HPHGCHB-R-m, .HPHGCHB-kb-y, .HPHGCHB-M-a {
   border-top-color: $border-default;
 }
-.HPHGCHB-t-a, .HPHGCHB-R-C .HPHGCHB-R-x, .HPHGCHB-kb-y tr,
-.HPHGCHB-W-o th, .HPHGCHB-W-o td, .HPHGCHB-W-c th, .HPHGCHB-W-c td {
+.HPHGCHB-t-a, .HPHGCHB-R-C .HPHGCHB-R-x, .HPHGCHB-kb-y tr, .HPHGCHB-W-o th, .HPHGCHB-W-o td, .HPHGCHB-W-c th, .HPHGCHB-W-c td, .HPHGCHB-T-l tr {
   border-bottom-color: $border-default;
 }
 .HPHGCHB-R-x, .HPHGCHB-R-c, .HPHGCHB-R-z, .HPHGCHB-L-j {
@@ -258,7 +258,7 @@ span[class^="creator-editor-icon"], .yt-close-img, .box-close-link img, .yt-uix-
 .HPHGCHB-P-j, .HPHGCHB-kb-b, .HPHGCHB-W-u, .HPHGCHB-K-c, .HPHGCHB-n-c {
   filter: $invert;
 }
-.HPHGCHB-R-p:hover, .HPHGCHB-R-c:hover, .HPHGCHB-kb-r, .HPHGCHB-W-o tr:nth-child(2n) {
+.HPHGCHB-R-p:hover, .HPHGCHB-R-c:hover, .HPHGCHB-kb-r, .HPHGCHB-W-o tr:nth-child(2n), .HPHGCHB-T-l td:nth-child(3):hover, .HPHGCHB-T-l td:nth-child(4):hover {
   background-color: $bg-lighter;
 }
 .HPHGCHB-R-j ellipse {
@@ -370,44 +370,41 @@ span[class^="creator-editor-icon"], .yt-close-img, .box-close-link img, .yt-uix-
 }
 
 /*Create*/
-#main-title,
-.asset-sound-recording-section, .asset-composition-section, .music-attribution-monetization-section,
-.music-attribution-no-monetization-section, .music-no-attribution-monetization-section, .music-no-attribution-no-monetization-section,
-.asset-restrictions-header, .asset-monetization-header, .asset-stores-header,
-.asset-restrictions-list div, .asset-monetization-list div, .asset-stores-list div,
-.drag-to-begin-message p, .drag-to-begin-audio-message p {
-  color: $c-333;
-}
-.audio-library-tab-subtitle {
-  color: $c-767676;
-}
-.track-list li.track {
+.track-list li.track, .infobox-body {
   background-color: $bg;
 }
 .track-list li.track:hover {
   background-color: $bg-lighter;
 }
-.track:hover .audiolibrary-track-head .audiolibrary-column, .track.loading .audiolibrary-track-head .audiolibrary-column, .track.expanded .audiolibrary-track-head .audiolibrary-column,
-.audiolibrary-column-genre-and-mood a:hover, .mediapicker-audio.audio-track .audio-title {
+.track:hover .audiolibrary-track-head .audiolibrary-column, .track.loading .audiolibrary-track-head .audiolibrary-column, .track.expanded .audiolibrary-track-head .audiolibrary-column, .audiolibrary-column-genre-and-mood a:hover, .mediapicker-audio.audio-track .audio-title {
   color: $c-000;
 }
 .audiolibrary-column-title, .audiolibrary-column-title-expand {
   color: $c-222;
 }
-.top-menu, .track-list li.track {
-  border-bottom-color: $border-default;
+#main-title, .asset-sound-recording-section, .asset-composition-section, .music-attribution-monetization-section, .music-attribution-no-monetization-section, .music-no-attribution-monetization-section, .music-no-attribution-no-monetization-section, .asset-restrictions-header, .asset-monetization-header, .asset-stores-header, .asset-restrictions-list div, .asset-monetization-list div, .asset-stores-list div, .drag-to-begin-message p, .drag-to-begin-audio-message p {
+   color: $c-333;
+ }
+.editor-slider .slider-readout {
+  color: $c-444;
 }
-#audio-library-track-footer, .asset-available-footer, .asset-not-available-text {
+#audio-library-track-footer, .asset-available-footer, .asset-not-available-text, .text-property-panel .property-title {
   color: $c-555;
 }
-.track .expand-button .track-action-icon, .menu-tab img, img.storyboard-icon {
+.audio-library-tab-subtitle {
+  color: $c-767676;
+}
+.track .expand-button .track-action-icon, .menu-tab img, img.storyboard-icon, .editor-slider .goog-slider-horizontal {
   filter: $invert
 }
 .track-list li.track.expanded {
   background-color: $bg-lighter;
   border-bottom-color: $bg;
 }
-#top-bar, #advertising-note, .yt-card .yt-uix-tabs {
+.top-menu, .track-list li.track {
+  border-bottom-color: $border-default;
+}
+#top-bar, #advertising-note, .yt-card .yt-uix-tabs, .video-media #infobox-options-container, .image-media #infobox-options-container {
   border-color: $border-default;
 }
 #storyboard {
