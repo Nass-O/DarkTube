@@ -330,10 +330,6 @@
     border-bottom-color: #1a1a1a;
   }
 
-  .yt-uix-clickcard-card-reverse .yt-uix-card-border-arrow-vertical, .yt-uix-hovercard-card-reverse .yt-uix-card-border-arrow-vertical {
-    border-bottom-color: #313131;
-  }
-
   /*header*/
   .yt-uix-clickcard-card-border, .yt-uix-hovercard-card-border {
     background: #1a1a1a;
@@ -359,6 +355,15 @@
 
   .yt-lockup-notification .yt-lockup-title a {
     color: #ccc;
+  }
+
+  .background-promo-renderer-title {
+    color: #bdbdbd;
+  }
+
+  /*background bell*/
+  .background-promo-renderer-thumbnail {
+    filter: invert(0.9);
   }
 
   /* blue dot (new notification)*/
