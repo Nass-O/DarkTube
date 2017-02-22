@@ -45,7 +45,7 @@
     filter: invert(0.35) !important;
   }
 
-  #report-form-modal-renderer .yt-dialog-base .yt-dialog-header .yt-dialog-close .yt-uix-button-content, .comment-replies-renderer-expander-down:after, .like-button-renderer-like-button:before, .like-button-renderer-dislike-button:before, .exp-searchbox-redesign #masthead-search:before, .PNL6KCC-H-b img, .PNL6KCC-Y-t, img[alt="Multi-line chart"], img[alt="Line chart"], img[alt="Stacked area chart"], img[alt="Pie chart"], img[alt="Bar chart"], img[alt="Map"], .PNL6KCC-gb-a, .PNL6KCC-u-a, .PNL6KCC-L-c, .PNL6KCC-n-c, .PNL6KCC-ob-b, .PNL6KCC-R-h, .PNL6KCC-H-i img, .pl-header-privacy-limited-sharing, .action-panel-trigger-transcript:before, .c4-featured-content-editor .question-mark-icon, #console-button, #autoplay-button, #loop-button, #save-thumbnail-button, #screenshot-button, #popout-button, #fullbrowser-button, #cinemamode-button, #framestep-button, .P-impexp, .P-implang, #yt-masthead #P, .vk-t-btn, .yt-uix-button-icon-dashboard-widget-config, .subscription-header .breadcrumb-chevron, .vm-list-view .vm-video-metric.video-dislikes-count .yt-sprite, .vm-list-view .vm-video-metric.video-comments .yt-sprite, .vm-list-view .vm-video-metric.video-likes-count .yt-sprite, .action-panel-trigger-report:before, .action-panel-trigger-stats:before, .live-chat-widget .post-button::before, .compact-shelf .yt-uix-shelfslider-prev-arrow, .rtl .compact-shelf .yt-uix-shelfslider-next-arrow, .compact-shelf .yt-uix-shelfslider-next-arrow, .rtl .compact-shelf .yt-uix-shelfslider-prev-arrow, .vertical-shelf .vertical-shelf-expander:before, .live-chat-widget .live-comments-emoji-picker-open::before, .live-chat-widget .overflow-menu-button:before, .live-chat-overflow-menu .chat-popout-menu:before, .vk-t-btn, .gsok_a, .yt-uix-button-icon-view-module, .yt-uix-button-icon-view-list, .guide-builder-search .search-button .yt-uix-button-content, .fg-Uh-db-ig, img.d-u-x, .pl-header-privacy-everyone, .hhb, .shb, .subscriptions-filter .filter-button .yt-uix-button-content, .yt-uix-button-default:before, .yt-uix-button-default .yt-uix-button-icon, .yt-uix-button-icon-upload-cancel, .comments .sprite_caret.up, .comments .sprite_caret.down, .yt-uix-button-icon-icon-account-settings, .track.attribution .license-button .track-action-icon, .track .play-pause-button.play-visible .track-action-icon, .track:hover .play-pause-button.play-hover .track-action-icon, .track.expanded .play-pause-button.play-hover .track-action-icon, .audio-ui-ad-badge, .yt-uix-button-icon-creator-editor-back, .add-to-widget .playlist-status, .add-to-widget .contains-all-selected-videos.to-be-removed .playlist-status, .add-to-widget .contains-some-selected-videos.to-be-removed .playlist-status, .add-to-widget .contains-all-selected-videos .playlist-status, .add-to-widget .to-be-added .playlist-status, .add-to-widget .private-icon, .add-to-widget .public-icon, .add-to-widget .addto-search-playlist-section .search-icon, .guidelines .yt-uix-expander .yt-uix-expander-arrow, .yt-help-icon, .yt-uix-button-icon-settings, .pl-header-privacy-only-me, .create-playlist-widget-form .yt-uix-button-has-icon[data-privacy-state=privacy-private]:before, .create-playlist-widget-form .yt-uix-button-has-icon[data-privacy-state=privacy-public]:before, .create-playlist-widget-form .yt-uix-button-has-icon[data-privacy-state=privacy-unlisted]:before, .c4-editor-plus:before, #creator-sidebar .studio-icon.creator-sidebar-live-streaming, .yt-uix-button-icon-vm-beauty-view, .yt-uix-button-icon-vm-list-view, .vm-search-btn .yt-uix-button-content, .Sgb, .create-playlist-widget-button .add-new-pl-btn:before, #watch7-subscription-container .channel-settings-link:before, .searchfield .search-icon, .sprite_send_message, .yt-uix-button-icon-sprite_send_message, .ytch-search-container .search-btn-component .yt-uix-button-content, #channel-search .show-search .search-icon, #footer .yt-uix-button-icon-footer-language, #footer .yt-uix-button-icon-footer-history, #footer .yt-uix-button-icon-questionmark, .yt-uix-menu.actions-menu, .live-chat-widget .chat-popout-menu:before, #moderator-actions-menu .chat-popout-menu:before, .live-comments-emoji-type-button.emoji_people, .live-comments-emoji-type-button.emoji_flora, .live-comments-emoji-type-button.emoji_things, .live-comments-emoji-type-button.emoji_transportation, .live-comments-emoji-type-button.emoji_symbols, .xN .d-y-r-c-Qa, .ena, .MJa, .LJa, .Ygb, .gr, .iI, .khb, .Qgb, .vKFgJc, .autoplay-bar .autoplay-info-icon, #masthead-search .search-btn-component .yt-uix-button-content, #yt-masthead-user .yt-uix-button-icon-bell, .addto-button:before, .action-panel-trigger-share:before, #action-panel-overflow-button:before, .action-panel-trigger-overflow:before, .play-all-icon-btn:before {
+  #report-form-modal-renderer .yt-dialog-base .yt-dialog-header .yt-dialog-close .yt-uix-button-content, .comment-replies-renderer-expander-down:after, .like-button-renderer-like-button:before, .like-button-renderer-dislike-button:before, .exp-searchbox-redesign #masthead-search:before, .PNL6KCC-H-b img, .PNL6KCC-Y-t, img[alt="Multi-line chart"], img[alt="Line chart"], img[alt="Stacked area chart"], img[alt="Pie chart"], img[alt="Bar chart"], img[alt="Map"], img[alt="Bubble chart"], .PNL6KCC-gb-a, .PNL6KCC-u-a, .PNL6KCC-L-c, .PNL6KCC-n-c, .PNL6KCC-ob-b, .PNL6KCC-R-h, .PNL6KCC-H-i img, .pl-header-privacy-limited-sharing, .action-panel-trigger-transcript:before, .c4-featured-content-editor .question-mark-icon, #console-button, #autoplay-button, #loop-button, #save-thumbnail-button, #screenshot-button, #popout-button, #fullbrowser-button, #cinemamode-button, #framestep-button, .P-impexp, .P-implang, #yt-masthead #P, .vk-t-btn, .yt-uix-button-icon-dashboard-widget-config, .subscription-header .breadcrumb-chevron, .vm-list-view .vm-video-metric.video-dislikes-count .yt-sprite, .vm-list-view .vm-video-metric.video-comments .yt-sprite, .vm-list-view .vm-video-metric.video-likes-count .yt-sprite, .action-panel-trigger-report:before, .action-panel-trigger-stats:before, .live-chat-widget .post-button::before, .compact-shelf .yt-uix-shelfslider-prev-arrow, .rtl .compact-shelf .yt-uix-shelfslider-next-arrow, .compact-shelf .yt-uix-shelfslider-next-arrow, .rtl .compact-shelf .yt-uix-shelfslider-prev-arrow, .vertical-shelf .vertical-shelf-expander:before, .live-chat-widget .live-comments-emoji-picker-open::before, .live-chat-widget .overflow-menu-button:before, .live-chat-overflow-menu .chat-popout-menu:before, .vk-t-btn, .gsok_a, .yt-uix-button-icon-view-module, .yt-uix-button-icon-view-list, .guide-builder-search .search-button .yt-uix-button-content, .fg-Uh-db-ig, img.d-u-x, .pl-header-privacy-everyone, .hhb, .shb, .subscriptions-filter .filter-button .yt-uix-button-content, .yt-uix-button-default:before, .yt-uix-button-default .yt-uix-button-icon, .yt-uix-button-icon-upload-cancel, .comments .sprite_caret.up, .comments .sprite_caret.down, .yt-uix-button-icon-icon-account-settings, .track.attribution .license-button .track-action-icon, .track .play-pause-button.play-visible .track-action-icon, .track:hover .play-pause-button.play-hover .track-action-icon, .track.expanded .play-pause-button.play-hover .track-action-icon, .audio-ui-ad-badge, .yt-uix-button-icon-creator-editor-back, .add-to-widget .playlist-status, .add-to-widget .contains-all-selected-videos.to-be-removed .playlist-status, .add-to-widget .contains-some-selected-videos.to-be-removed .playlist-status, .add-to-widget .contains-all-selected-videos .playlist-status, .add-to-widget .to-be-added .playlist-status, .add-to-widget .private-icon, .add-to-widget .public-icon, .add-to-widget .addto-search-playlist-section .search-icon, .guidelines .yt-uix-expander .yt-uix-expander-arrow, .yt-help-icon, .yt-uix-button-icon-settings, .pl-header-privacy-only-me, .create-playlist-widget-form .yt-uix-button-has-icon[data-privacy-state=privacy-private]:before, .create-playlist-widget-form .yt-uix-button-has-icon[data-privacy-state=privacy-public]:before, .create-playlist-widget-form .yt-uix-button-has-icon[data-privacy-state=privacy-unlisted]:before, .c4-editor-plus:before, #creator-sidebar .studio-icon.creator-sidebar-live-streaming, .yt-uix-button-icon-vm-beauty-view, .yt-uix-button-icon-vm-list-view, .vm-search-btn .yt-uix-button-content, .Sgb, .create-playlist-widget-button .add-new-pl-btn:before, #watch7-subscription-container .channel-settings-link:before, .searchfield .search-icon, .sprite_send_message, .yt-uix-button-icon-sprite_send_message, .ytch-search-container .search-btn-component .yt-uix-button-content, #channel-search .show-search .search-icon, #footer .yt-uix-button-icon-footer-language, #footer .yt-uix-button-icon-footer-history, #footer .yt-uix-button-icon-questionmark, .yt-uix-menu.actions-menu, .live-chat-widget .chat-popout-menu:before, #moderator-actions-menu .chat-popout-menu:before, .live-comments-emoji-type-button.emoji_people, .live-comments-emoji-type-button.emoji_flora, .live-comments-emoji-type-button.emoji_things, .live-comments-emoji-type-button.emoji_transportation, .live-comments-emoji-type-button.emoji_symbols, .xN .d-y-r-c-Qa, .ena, .MJa, .LJa, .Ygb, .gr, .iI, .khb, .Qgb, .vKFgJc, .autoplay-bar .autoplay-info-icon, #masthead-search .search-btn-component .yt-uix-button-content, #yt-masthead-user .yt-uix-button-icon-bell, .addto-button:before, .action-panel-trigger-share:before, #action-panel-overflow-button:before, .action-panel-trigger-overflow:before, .play-all-icon-btn:before {
     -webkit-filter: invert(1) grayscale(1) !important;
     -moz-filter: invert(1) grayscale(1) !important;
     filter: invert(1) grayscale(1) !important;
@@ -718,6 +718,10 @@
     border-bottom-color: #2e2e2e;
   }
 
+  .live-welcome-webcam-icon, .live-welcome-engage-icon, .live-welcome-controls-icon {
+    filter: invert(0.9);
+  }
+
   /*Community*/
   .tabbed-page .tab.active {
     border-bottom-color: #1a1a1a;
@@ -799,7 +803,7 @@
   }
 
   .HPHGCHB-d-a .HPHGCHB-d-b, .HPHGCHB-P-g h2 a, .HPHGCHB-R-w, .HPHGCHB-R-b, .HPHGCHB-R-l .HPHGCHB-f-c:hover .HPHGCHB-f-f, .HPHGCHB-R-l .HPHGCHB-f-h .HPHGCHB-f-f, .HPHGCHB-b-c,
-  .HPHGCHB-ob-d, .HPHGCHB-W-q .HPHGCHB-W-F {
+  .HPHGCHB-ob-d, .HPHGCHB-W-q .HPHGCHB-W-F, .HPHGCHB-L-p, .HPHGCHB-L-n {
     color: #cacaca;
   }
 
@@ -815,7 +819,7 @@
     border-top-color: #1a1a1a !important;
   }
 
-  .HPHGCHB-R-m, .HPHGCHB-kb-y {
+  .HPHGCHB-R-m, .HPHGCHB-kb-y, .HPHGCHB-M-a {
     border-top-color: #2e2e2e;
   }
 
@@ -824,7 +828,7 @@
     border-bottom-color: #2e2e2e;
   }
 
-  .HPHGCHB-R-x, .HPHGCHB-R-c, .HPHGCHB-R-z {
+  .HPHGCHB-R-x, .HPHGCHB-R-c, .HPHGCHB-R-z, .HPHGCHB-L-j {
     border-right-color: #2e2e2e;
   }
 
@@ -837,7 +841,7 @@
     filter: invert(0.9);
   }
 
-  .HPHGCHB-R-p:hover, .HPHGCHB-R-c:hover, .HPHGCHB-kb-r {
+  .HPHGCHB-R-p:hover, .HPHGCHB-R-c:hover, .HPHGCHB-kb-r, .HPHGCHB-W-o tr:nth-child(2n) {
     background-color: #222222;
   }
 
@@ -852,6 +856,19 @@
   .HPHGCHB-M-e {
     border-bottom-color: #2e2e2e;
     background-color: #1a1a1a;
+  }
+
+  .HPHGCHB-eb-a, .HPHGCHB-eb-a li, .HPHGCHB-L-i {
+    background: #222222;
+    border-color: #2e2e2e;
+  }
+
+  .HPHGCHB-eb-a li.HPHGCHB-eb-b, .HPHGCHB-L-j.HPHGCHB-g-y, .HPHGCHB-L-j.HPHGCHB-g-y:hover {
+    background-color: #121212;
+  }
+
+  .HPHGCHB-eb-a li:hover, .HPHGCHB-L-j:hover {
+    background: #1a1a1a;
   }
 
   /*buttons-start*/
@@ -881,6 +898,72 @@
   }
 
   /*buttons-stop*/
+  /*Loader popup*/
+  .HPHGCHB-c-b {
+    background: #222222;
+  }
+
+  /*dropdown menu*/
+  .HPHGCHB-r-a {
+    border-color: #393939;
+    background: #1a1a1a;
+  }
+
+  .HPHGCHB-r-f {
+    color: #a2a2a2;
+  }
+
+  .HPHGCHB-r-e, .HPHGCHB-r-e strong {
+    background-color: #242424;
+    color: #fff;
+  }
+
+  .HPHGCHB-r-h {
+    border-top-color: #292929;
+  }
+
+  /*dropdown calendar*/
+  .HPHGCHB-K-h {
+    color: #cacaca;
+    border-left-color: #2e2e2e;
+    border-right-color: #2e2e2e;
+    border-bottom-color: #2e2e2e;
+  }
+
+  .HPHGCHB-K-h .datePickerMonthSelector, .HPHGCHB-K-h .datePickerDayIsWeekend {
+    background-color: #121212;
+  }
+
+  .HPHGCHB-K-h .datePickerWeekdayLabel, .HPHGCHB-K-h .datePickerWeekendLabel {
+    background-color: #121212;
+    border-bottom-color: #2e2e2e;
+  }
+
+  /*Settings popup*/
+  .HPHGCHB-s-n {
+    background-color: #1a1a1a;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    background-color: rgba(26, 26, 26, 0.8);
+  }
+
+  .HPHGCHB-s-f .HPHGCHB-s-p, .HPHGCHB-s-g {
+    border-color: #2e2e2e;
+    color: #a2a2a2;
+  }
+
+  .HPHGCHB-s-f {
+    background-color: #1a1a1a;
+    color: #bdbdbd;
+  }
+
+  .HPHGCHB-s-f .HPHGCHB-s-i {
+    background: #222222;
+  }
+
+  .HPHGCHB-g-d {
+    filter: invert(0.9);
+  }
+
   /*Translations*/
   .yt-uix-overlay-actions {
     background: #222222;
@@ -998,6 +1081,10 @@
 
   .zoom-icon-container, .zoom-slider {
     filter: invert(0.9);
+  }
+
+  .track-filter-selection-list .track-filter.all, .yt-uix-languagepicker-search-container {
+    border-top-color: #292929;
   }
 
   /*other*/

@@ -110,6 +110,9 @@
   background: $bg-lighter;
   border-bottom-color: $border-default;
 }
+.live-welcome-webcam-icon, .live-welcome-engage-icon, .live-welcome-controls-icon {
+  filter: $invert;
+}
 
 /*Community*/
 .tabbed-page .tab.active {
@@ -177,7 +180,7 @@
   background-color: $bg;
 }
 .HPHGCHB-d-a .HPHGCHB-d-b, .HPHGCHB-P-g h2 a, .HPHGCHB-R-w, .HPHGCHB-R-b, .HPHGCHB-R-l .HPHGCHB-f-c:hover .HPHGCHB-f-f, .HPHGCHB-R-l .HPHGCHB-f-h .HPHGCHB-f-f, .HPHGCHB-b-c,
-.HPHGCHB-ob-d, .HPHGCHB-W-q .HPHGCHB-W-F {
+.HPHGCHB-ob-d, .HPHGCHB-W-q .HPHGCHB-W-F, .HPHGCHB-L-p, .HPHGCHB-L-n {
   color: $c-222;
 }
 .HPHGCHB-R-s .HPHGCHB-R-B, .HPHGCHB-R-e {
@@ -189,14 +192,14 @@
 .HPHGCHB-ab-e {
   border-top-color: $bg!important;
 }
-.HPHGCHB-R-m, .HPHGCHB-kb-y {
+.HPHGCHB-R-m, .HPHGCHB-kb-y, .HPHGCHB-M-a {
   border-top-color: $border-default;
 }
 .HPHGCHB-t-a, .HPHGCHB-R-C .HPHGCHB-R-x, .HPHGCHB-kb-y tr,
 .HPHGCHB-W-o th, .HPHGCHB-W-o td, .HPHGCHB-W-c th, .HPHGCHB-W-c td {
   border-bottom-color: $border-default;
 }
-.HPHGCHB-R-x, .HPHGCHB-R-c, .HPHGCHB-R-z {
+.HPHGCHB-R-x, .HPHGCHB-R-c, .HPHGCHB-R-z, .HPHGCHB-L-j {
   border-right-color: $border-default;
 }
 .HPHGCHB-T-d {
@@ -206,7 +209,7 @@
 .HPHGCHB-P-j, .HPHGCHB-kb-b, .HPHGCHB-W-u, .HPHGCHB-K-c, .HPHGCHB-n-c {
   filter: $invert;
 }
-.HPHGCHB-R-p:hover, .HPHGCHB-R-c:hover, .HPHGCHB-kb-r {
+.HPHGCHB-R-p:hover, .HPHGCHB-R-c:hover, .HPHGCHB-kb-r, .HPHGCHB-W-o tr:nth-child(2n) {
   background-color: $bg-lighter;
 }
 .HPHGCHB-R-j ellipse {
@@ -218,6 +221,16 @@
 .HPHGCHB-M-e {
   border-bottom-color: $border-default;
   background-color: $bg;
+}
+.HPHGCHB-eb-a, .HPHGCHB-eb-a li, .HPHGCHB-L-i {
+  background: $bg-lighter;
+  border-color: $border-default;
+}
+.HPHGCHB-eb-a li.HPHGCHB-eb-b, .HPHGCHB-L-j.HPHGCHB-g-y, .HPHGCHB-L-j.HPHGCHB-g-y:hover {
+  background-color: $bg-darker;
+}
+.HPHGCHB-eb-a li:hover, .HPHGCHB-L-j:hover {
+  background: $bg;
 }
 /*buttons-start*/
 .HPHGCHB-g-f {
@@ -242,6 +255,59 @@
   background: $btn-def-bg;
 }
 /*buttons-stop*/
+/*Loader popup*/
+.HPHGCHB-c-b {
+  background: $bg-lighter;
+}
+/*dropdown menu*/
+.HPHGCHB-r-a {
+  border-color: $btn-def-border;
+  background: $bg;
+}
+.HPHGCHB-r-f {
+  color: $c-555;
+}
+.HPHGCHB-r-e, .HPHGCHB-r-e strong {
+  background-color: $dropdown-item-bg-hover;
+  color: #fff;
+}
+.HPHGCHB-r-h {
+  border-top-color: $border-darker;
+}
+/*dropdown calendar*/
+.HPHGCHB-K-h {
+  color: $c-222;
+  border-left-color: $border-default;
+  border-right-color: $border-default;
+  border-bottom-color: $border-default;
+}
+.HPHGCHB-K-h .datePickerMonthSelector, .HPHGCHB-K-h .datePickerDayIsWeekend {
+  background-color: $bg-darker;
+}
+.HPHGCHB-K-h .datePickerWeekdayLabel, .HPHGCHB-K-h .datePickerWeekendLabel {
+  background-color: $bg-darker;
+  border-bottom-color: $border-default;
+}
+/*Settings popup*/
+.HPHGCHB-s-n {
+  background-color: $bg;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  background-color: rgba(26, 26, 26, 0.8);
+}
+.HPHGCHB-s-f .HPHGCHB-s-p, .HPHGCHB-s-g {
+  border-color: $border-default;
+  color: $c-555;
+}
+.HPHGCHB-s-f {
+  background-color: $bg;
+  color: $c-333;
+}
+.HPHGCHB-s-f .HPHGCHB-s-i {
+  background: $bg-lighter;
+}
+.HPHGCHB-g-d {
+  filter: $invert;
+}
 
 /*Translations*/
 .yt-uix-overlay-actions {
@@ -336,6 +402,9 @@
 }
 .zoom-icon-container, .zoom-slider {
   filter: $invert;
+}
+.track-filter-selection-list .track-filter.all, .yt-uix-languagepicker-search-container {
+  border-top-color: $border-darker;
 }
 
 /*other*/
