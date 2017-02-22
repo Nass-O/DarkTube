@@ -12,7 +12,7 @@
   background-color: $bg-lighter;
   border-bottom-color: $border-default;
 }
-.dashboard-widget-footer .dashboard-widget-view-all-link:hover, .vm-list-view .vm-video-item-content-horizontal-divider,
+.dashboard-widget-footer .dashboard-widget-view-all-link:hover, .vm-list-view .vm-video-item-content-horizontal-divider, .dashboard-widget-todos .todo-item:hover,
 .vm-list-view .vm-video-list .vm-video-item.selected,
 .vm-improve-video-button:hover, .vm-improve-video-close-button:hover, .vm-video-suggestion-button:hover, .vm-video-suggestion-close-button:hover {
   background: $bg-lighter;
@@ -39,6 +39,9 @@
   border-color: $border-default!important;
   color: $c-333;
 }
+.dashboard-widget-todos .todo-item, .dashboard-widget-todos .todo-description {
+  border-color: $bg;
+}
 
 /*big titles*/
 #creator-sidebar .creator-sidebar-branding h1 {
@@ -48,7 +51,8 @@
 .dashboard-widget-header h2, .dashboard-widget-header h2 a, #dashboard-header h2 a, .yt-alert-naked .yt-alert-content, .analytics-sparkline-card .infos .total,
 .analytics-sparkline-card .infos .title, .dashboard-widget-videos .video-list-item .video-title a, .yt-uix-button-menu .yt-uix-button-menu-item, #creator-subheader h2,
 .vm-list-view .vm-video-title .vm-video-title-content, .vm-list-view .vm-video-side-view-count a,
-#non-appbar-vm-video-actions-bar .vm-video-actions-inner #vm-view-filter-label, .vm-copyright-filter-wrapper {
+#non-appbar-vm-video-actions-bar .vm-video-actions-inner #vm-view-filter-label, .vm-copyright-filter-wrapper,
+.dashboard-widget-comments .comment-header a, .dashboard-widget-comments .comment-comment {
   color: $c-333;
 }
 
@@ -88,21 +92,66 @@
   border-color: $border-menu;
   color: $c-555;
 }
-.iph-dialog-content {
+.iph-dialog-content, .iph-dialog-title, .blur-effect-entry .blur-effect-explanation, .blur-effect-footnote, #audio-ui, .timeline-ruler .rulabel,
+.endscreen-editor-toggle-preview>label {
   color: $c-555;
 }
-.iph-dialog-pointer-down {
+div[class^="iph-dialog-pointer"], div[class^="yt-uix-card-border-arrow"] {
   filter: invert(.87);
+}
+span[class^="creator-editor-icon"], .yt-close-img, .box-close-link img, .yt-uix-clickcard-close, .close-small, .timeline-zoomslider .slider-icon,
+.timeline-zoomslider .goog-slider-horizontal {
+  filter: $invert;
 }
 .yt-badge {
   border-color: $border-default;
   color: $c-444;
 }
-.menu-item-top-divider {
-  border-top-color: $border-darker;
+.menu-item-top-divider, .add-to-widget .playlists {
+  border-color: $border-darker;
 }
-.vm-list-view .vm-video-metrics a:hover {
+.creator-editor-nav, .metadata-editor-container .subnav,
+.translation-editor-header .translation-editor-column-half, .translation-editor-header .translation-editor-column-divider,
+.creator-editor-content #inline-editor-header, #enhance-footer, .tab-container, .blur-effect-entry,
+#annotator-select-div, #annotator-add-div, #add-captions-section {
+  border-color: $border-default;
+}
+.vm-list-view .vm-video-metrics a:hover, .audio-ui-featured-row:hover {
   background: $bg-lighter;
+}
+.metadata-container, .metadata-editor-container .video-settings-form, #inline-editor-main, .annotator-endscreen-splash, .multitrack-timeline, .timeline-row {
+  background: $bg;
+}
+.creator-editor-nav-tabs li>span, .creator-editor-nav-tabs li a, .creator-editor-title a, .iph-dialog a,
+.tabs .tab-header.selected a, .tabs .tab-header a:hover, .tabs .tab-header:hover a, .tabs .tab-header a:focus,
+.metadata-container h3, .single-field, .menu-tab:hover, .menu-tab.selected, .enhance-effect .slider-readout, .enhance-effect .property-title,
+.blur-effect-entry .blur-effect-title, #caption-track-lists h3, .add-to-widget .addto-playlist-item, .add-to-widget .create-playlist-item {
+  color: $c-333;
+}
+#audio-ui-pagefold {
+  border-top-color: $border-default;
+  border-bottom-color: $bg;
+}
+#featured-tracks-header, #audio-ui-search-input-field, #annotator-div {
+  border-color: $border-default;
+  background-color: $bg-lighter;
+}
+.audio-ui-featured-row {
+  border-color: $border-default;
+  box-shadow: 0 1px 0 $bg;
+}
+.annotator-dimmed-background {
+  background-color: rgba(26,26,26,.75);
+}
+.annotator-container .html5-video-player {
+  outline: 1px solid $border-default;
+}
+#video-settings-section {
+  border: $border-default;
+  color: $c-333;
+}
+.add-to-widget .addto-playlist-item:hover, .add-to-widget .create-playlist-item:hover, .add-to-widget .addto-playlist-item.yt-uix-kbd-nav-highlight {
+  background: $dropdown-item-bg-hover;
 }
 
 /*Live Streaming Events*/
@@ -405,6 +454,19 @@
 }
 .track-filter-selection-list .track-filter.all, .yt-uix-languagepicker-search-container {
   border-top-color: $border-darker;
+}
+
+/*Notifications*/
+.yt-creator-notifications .yt-creator-notifications-header h2 {
+  color: $c-333;
+}
+.yt-creator-notifications .yt-creator-tip-list tr {
+  color: $c-333;
+  border-top-color: $border-default;
+}
+.yt-creator-notifications .yt-creator-tip-list .inactive {
+  background: $bg-lighter;
+  color: $c-767676;
 }
 
 /*other*/
