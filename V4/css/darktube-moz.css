@@ -679,7 +679,7 @@
     background: #1a1a1a;
   }
 
-  /*Video manager*/
+  /******VIDEO MANAGER*******/
   .iph-dialog {
     background: #222222;
     border-color: #1f1f1f;
@@ -755,17 +755,72 @@
     background: #242424;
   }
 
-  /*Live Streaming Events*/
+  /******LIVE STREAMING*******/
   .live-welcome-intro {
     background: #222222;
     border-bottom-color: #2e2e2e;
   }
 
-  .live-welcome-webcam-icon, .live-welcome-engage-icon, .live-welcome-controls-icon {
+  .live-dashboard .yt-uix-dragdrop-drag-handle {
+    background-color: #1a1a1a;
+    border-bottom-color: #2e2e2e;
+  }
+
+  .live-dashboard-status-bar {
+    color: #a2a2a2;
+    background-color: #222222;
+    border-bottom-color: #2e2e2e;
+  }
+
+  .live-dashboard .checklist-remove-container, .live-dashboard .checklist-item {
+    border-top-color: #2e2e2e;
+    color: #bdbdbd;
+  }
+
+  .live-dashboard-status-bar-container, .live-dashboard-status-bar .health-and-status, .yt-live-chat-renderer-0 yt-live-chat-header-renderer.yt-live-chat-renderer, .yt-live-chat-renderer-0 #action-panel.yt-live-chat-renderer:not(:empty), .yt-card .yt-uix-button-expander, .live-event-analytics-v2 #live-event-manager-ribbon-container, .live-event-analytics-v2 .yt-vertical-rule-main, .live-event-analytics-v2 #live-rtd-summary-box-details tr, .live-event-analytics-v2 #live-rtd-manage-mode-content {
+    border-color: #2e2e2e;
+  }
+
+  .live-dashboard-status-bar .yt-ui-ellipsis, .live-event-analytics-v2 #live-rtd-summary-box {
+    background-color: #222222;
+  }
+
+  .live-dashboard .floating-dragdrop-handle-container .yt-uix-dragdrop-drag-handle, .live-dashboard .player-controls-buttons, .live-dashboard .live-chat-card .settings-panel .settings-card, .live-dashboard .live-chat-card .live-chat-iframe, .dashboard #live-event-manager-body, .managed #live-event-manager-body, .live-event-analytics-v2 .live-control-panel {
+    background-color: #1a1a1a;
+  }
+
+  .live-dashboard .yt-www-ls-rts-summary-div rect {
+    fill: #1a1a1a;
+  }
+
+  .live-dashboard .live-chat-card .settings-panel {
+    background: rgba(26, 26, 26, 0.8);
+  }
+
+  .live-dashboard .live-chat-card {
+    background: #292929;
+  }
+
+  .live-event-analytics-v2 #live-rtd-summary-box-top-container {
+    border-color: #2e2e2e;
+    color: #bdbdbd;
+  }
+
+  #live-rtd-top-container {
+    box-shadow: 0 1px 1px #1a1a1a;
+  }
+
+  /*text colors*/
+  .live-dashboard .strong-text, .live-dashboard .yt-uix-tabs .yt-uix-button-content, .live-dashboard .analytics-summary-metric-header .analytics-summary-metric-header-number, .yt-live-tab.yt-uix-tabs-selected, .yt-live-tab:hover, .live-rtd-header {
+    color: #bdbdbd;
+  }
+
+  /*icon inverting*/
+  .live-welcome-webcam-icon, .live-welcome-engage-icon, .live-welcome-controls-icon, .yt-uix-expander-collapsed .yt-uix-expander-arrow-left, .yt-uix-expander-collapsed .yt-uix-expander-arrow {
     filter: invert(0.9);
   }
 
-  /*Community*/
+  /******COMMUNITY*******/
   .tabbed-page .tab.active {
     border-bottom-color: #1a1a1a;
     background-color: #1a1a1a;
@@ -836,7 +891,7 @@
     color: #ccc;
   }
 
-  /*Channel*/
+  /******CHANNEL*******/
   .account-status-v2, .account-status-scales, #creator-subheader, .account-content .account-section.account-bordered-section {
     border-color: #2e2e2e;
   }
@@ -867,7 +922,7 @@
     border-color: #2e2e2e;
   }
 
-  /*Analytics*/
+  /******ANALYTICS*******/
   .HPHGCHB-b-d, .HPHGCHB-R-D, .HPHGCHB-kb-p, .HPHGCHB-kb-i, .HPHGCHB-kb-m, .HPHGCHB-R-h, .HPHGCHB-f-a, .HPHGCHB-W-o .HPHGCHB-W-w td, .HPHGCHB-M-b, .HPHGCHB-hb-b, .HPHGCHB-hb-b .gwt-viz-container, .HPHGCHB-W-o, .HPHGCHB-W-c, .HPHGCHB-F-j {
     background-color: #1a1a1a;
   }
@@ -1032,7 +1087,7 @@
     filter: invert(0.9);
   }
 
-  /*Translations*/
+  /******TRANSLATIONS & TRANSCRIPTIONS*******/
   .yt-uix-overlay-actions {
     background: #222222;
   }
@@ -1045,7 +1100,7 @@
     color: #ccc;
   }
 
-  /*Create*/
+  /******CREATE*******/
   .track-list li.track, .infobox-body {
     background-color: #1a1a1a;
   }
@@ -1104,7 +1159,7 @@
     background: #121212;
   }
 
-  /*Your Contributions*/
+  /******YOUR CONTRIBUTIONS*******/
   .caption-queue th, .caption-queue td {
     border-bottom-color: #2e2e2e;
   }
