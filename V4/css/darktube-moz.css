@@ -587,10 +587,6 @@
     border-right-color: #1a1a1a;
   }
 
-  .yt-uix-clickcard-card-flip .yt-uix-card-border-arrow-horizontal, .yt-uix-hovercard-card-flip .yt-uix-card-border-arrow-horizontal {
-    border-right-color: #292929;
-  }
-
   /*other*/
   .social-connector, .desktop-notifications .browser {
     border-color: #2e2e2e;
