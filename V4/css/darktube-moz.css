@@ -1190,6 +1190,59 @@
     filter: invert(0) !important;
   }
 
+  /******UPLOAD*******/
+  /*text color*/
+  .upload-other-options-list .upload-option-text {
+    color: #bdbdbd;
+  }
+
+  #upload-button-text, .upload-sidebar-header, .upload-footer-header {
+    color: #afafaf;
+  }
+
+  .upload-item-sidebar-text h3, .sharing-networks-label {
+    color: #a2a2a2;
+  }
+
+  .upload-item-sidebar-text, .custom-thumb-text {
+    color: #878787;
+  }
+
+  /*card background*/
+  .upload-item {
+    border-color: #2e2e2e;
+    background-color: #1a1a1a;
+  }
+
+  .upload-thumb, .basic-info-tab .custom-thumb-area {
+    border-color: #2e2e2e;
+  }
+
+  .thumbnail-overlay-inner-border {
+    border-color: #1a1a1a;
+  }
+
+  .sharing-balloon {
+    color: #878787;
+    border-color: #2e2e2e;
+  }
+
+  .sharing-balloon:before {
+    border-right-color: #2e2e2e;
+  }
+
+  .sharing-balloon:after {
+    border-right-color: #1a1a1a;
+  }
+
+  .yt-uix-card-body-arrow-horizontal {
+    border-left-color: #1a1a1a;
+  }
+
+  input.yt-uix-form-input-checkbox.sharing-setting.autoshare-checkbox.sharing-network.autoshare-checkbox-twitter.mde-checkbox {
+    background: #1a1a1a;
+  }
+
   /***** FOOTER ******/
   body #footer-container {
     background: #1a1a1a;
