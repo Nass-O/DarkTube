@@ -12,9 +12,6 @@
 .yt-uix-clickcard-card-reverse .yt-uix-card-body-arrow-vertical, .yt-uix-hovercard-card-reverse .yt-uix-card-body-arrow-vertical {
   border-bottom-color: $bg;
 }
-.yt-uix-clickcard-card-reverse .yt-uix-card-border-arrow-vertical, .yt-uix-hovercard-card-reverse .yt-uix-card-border-arrow-vertical {
-    border-bottom-color: #313131;
-}
 
 /*header*/
 .yt-uix-clickcard-card-border, .yt-uix-hovercard-card-border {
@@ -38,6 +35,14 @@
 }
 .yt-lockup-notification .yt-lockup-title a {
   color: $gray-lighter;
+}
+.background-promo-renderer-title {
+  color: $c-333;
+}
+
+/*background bell*/
+.background-promo-renderer-thumbnail {
+  filter: $invert;
 }
 
 /* blue dot (new notification)*/

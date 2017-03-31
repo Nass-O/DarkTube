@@ -1,0 +1,525 @@
+@import "_variables.scss";
+/******DASHBOARD*******/
+
+/*card background*/
+.dashboard-widget.notification, .dashboard-widget .dashboard-widget-content, .dashboard-widget .dashboard-widget-config {
+  background-color: $bg;
+  color: $c-333;
+}
+.dashboard-widget-header:hover, .dashboard-widget .dashboard-widget-config .dashboard-widget-header, .dashboard-widget.yt-uix-dragdrop-dragged-item .dashboard-widget-header, .dashboard-widget.yt-uix-dragdrop-cursor-follower .dashboard-widget-header {
+  background-color: $bg-lighter;
+  border-bottom-color: $border-default;
+}
+.dashboard-widget-footer .dashboard-widget-view-all-link:hover, .vm-list-view .vm-video-item-content-horizontal-divider, .dashboard-widget-todos .todo-item:hover, .vm-list-view .vm-video-list .vm-video-item.selected, .vm-improve-video-button:hover, .vm-improve-video-close-button:hover, .vm-video-suggestion-button:hover, .vm-video-suggestion-close-button:hover {
+  background: $bg-lighter;
+}
+.analytics-sparkline-card:hover {
+  background: rgba(45,45,45,.5);
+}
+.video-list-item a:hover, #non-appbar-vm-video-actions-bar, #non-appbar-vm-video-actions-bar .vm-video-actions-bar, .vm-list-view .vm-video-list .vm-video-item, #vm-pagination {
+  background: $bg;
+}
+.dashboard-widget-header:hover .dashboard-widget-overlay-icon, .dashboard-widget.yt-uix-dragdrop-dragged-item .dashboard-widget-header .dashboard-widget-header-controls, .dashboard-widget.yt-uix-dragdrop-cursor-follower .dashboard-widget-header .dashboard-widget-header-controls {
+  border-left-color: $border-default;
+}
+.dashboard-widget:hover .dashboard-widget-display-title, .dashboard-widget.yt-uix-dragdrop-dragged-item .dashboard-widget-display-title, .dashboard-widget.yt-uix-dragdrop-cursor-follower .dashboard-widget-display-title {
+  border-right-color: $bg;
+}
+#non-appbar-vm-video-actions-bar .vm-video-actions-inner {
+  border-bottom-color: $border-default;
+}
+.vm-improve-video-button-group:hover .vm-improve-video-button, .vm-improve-video-button-group:hover .vm-improve-video-close-button, .vm-video-suggestion:hover .vm-video-suggestion-button, .vm-video-suggestion:hover .vm-video-suggestion-close-button {
+  border-color: $border-default!important;
+  color: $c-333;
+}
+.dashboard-widget-todos .todo-item, .dashboard-widget-todos .todo-description {
+  border-color: $bg;
+}
+
+/*big titles*/
+#creator-sidebar .creator-sidebar-branding h1 {
+  color: $gray-lighter;
+}
+/*common text*/
+.dashboard-widget-header h2, .dashboard-widget-header h2 a, #dashboard-header h2 a, .yt-alert-naked .yt-alert-content, .analytics-sparkline-card .infos .total, .analytics-sparkline-card .infos .title, .dashboard-widget-videos .video-list-item .video-title a, .yt-uix-button-menu .yt-uix-button-menu-item, #creator-subheader h2, .vm-list-view .vm-video-title .vm-video-title-content, .vm-list-view .vm-video-side-view-count a, #non-appbar-vm-video-actions-bar .vm-video-actions-inner #vm-view-filter-label, .vm-copyright-filter-wrapper, .dashboard-widget-comments .comment-header a, .dashboard-widget-comments .comment-comment {
+  color: $c-333;
+}
+
+/*text-shadow*/
+#dashboard-header h1, #dashboard-header h2, #dashboard-header h3 {
+  text-shadow: 0 1px 0 $bg;
+}
+#dashboard-header .dashboard-stat-name, #dashboard-header .add-widget-button-label, #dashboard-header .dashboard-stat-value {
+  text-shadow: 0 1px 0 $bg;
+  color: $c-333;
+}
+
+/*icons*/
+#creator-sidebar .studio-icon, .add-widget-button:hover, .add-widget-button:focus, .yt-sprite.vm-video-audioswap, img.vm-icon-improve-video {
+  -webkit-filter: $invert;
+  filter: $invert;
+}
+
+/*menu*/
+#creator-sidebar>#creator-sidebar-section-id-dashboard.selected>h3 a, #creator-sidebar>#creator-sidebar-section-id-your-contributions.selected>h3 a {
+  background-color: $bg;
+}
+#creator-sidebar-separator {
+  color: $sep-base;
+}
+
+/*dropdown*/
+.yt-uix-button-menu, .yt-ui-menu-content .yt-ui-menu-item.menu-subheading, .yt-ui-menu-content .yt-ui-menu-item.menu-subheading-notice {
+  border-color: $border-default;
+  background: $bg;
+}
+
+/******VIDEO MANAGER*******/
+.iph-dialog {
+  background: $bg-lighter;
+  border-color: $border-menu;
+  color: $c-555;
+}
+.iph-dialog-content, .iph-dialog-title, .blur-effect-entry .blur-effect-explanation, .blur-effect-footnote, #audio-ui, .timeline-ruler .rulabel, .endscreen-editor-toggle-preview>label {
+  color: $c-555;
+}
+div[class^="iph-dialog-pointer"], div[class^="yt-uix-card-border-arrow"] {
+  filter: invert(.87);
+}
+span[class^="creator-editor-icon"], .yt-close-img, .box-close-link img, .yt-uix-clickcard-close, .close-small, .timeline-zoomslider .slider-icon, .timeline-zoomslider .goog-slider-horizontal {
+  filter: $invert;
+}
+.yt-badge {
+  border-color: $border-default;
+  color: $c-444;
+}
+.menu-item-top-divider, .add-to-widget .playlists {
+  border-color: $border-darker;
+}
+.creator-editor-nav, .metadata-editor-container .subnav, .translation-editor-header .translation-editor-column-half, .translation-editor-header .translation-editor-column-divider, .creator-editor-content #inline-editor-header, #enhance-footer, .tab-container, .blur-effect-entry, #annotator-select-div, #annotator-add-div, #add-captions-section {
+  border-color: $border-default;
+}
+.vm-list-view .vm-video-metrics a:hover, .audio-ui-featured-row:hover {
+  background: $bg-lighter;
+}
+.metadata-container, .metadata-editor-container .video-settings-form, #inline-editor-main, .annotator-endscreen-splash, .multitrack-timeline, .timeline-row {
+  background: $bg;
+}
+.creator-editor-nav-tabs li>span, .creator-editor-nav-tabs li a, .creator-editor-title a, .iph-dialog a, .tabs .tab-header.selected a, .tabs .tab-header a:hover, .tabs .tab-header:hover a, .tabs .tab-header a:focus, .metadata-container h3, .single-field, .menu-tab:hover, .menu-tab.selected, .enhance-effect .slider-readout, .enhance-effect .property-title, .blur-effect-entry .blur-effect-title, #caption-track-lists h3, .add-to-widget .addto-playlist-item, .add-to-widget .create-playlist-item {
+  color: $c-333;
+}
+#audio-ui-pagefold {
+  border-top-color: $border-default;
+  border-bottom-color: $bg;
+}
+#featured-tracks-header, #audio-ui-search-input-field, #annotator-div {
+  border-color: $border-default;
+  background-color: $bg-lighter;
+}
+.audio-ui-featured-row {
+  border-color: $border-default;
+  box-shadow: 0 1px 0 $bg;
+}
+.annotator-dimmed-background {
+  background-color: rgba(26,26,26,.75);
+}
+.annotator-container .html5-video-player {
+  outline: 1px solid $border-default;
+}
+#video-settings-section {
+  border: $border-default;
+  color: $c-333;
+}
+.add-to-widget .addto-playlist-item:hover, .add-to-widget .create-playlist-item:hover, .add-to-widget .addto-playlist-item.yt-uix-kbd-nav-highlight {
+  background: $dropdown-item-bg-hover;
+}
+
+/******LIVE STREAMING*******/
+.live-welcome-intro {
+  background: $bg-lighter;
+  border-bottom-color: $border-default;
+}
+.live-dashboard .yt-uix-dragdrop-drag-handle {
+  background-color: $bg;
+  border-bottom-color: $border-default;
+}
+.live-dashboard-status-bar {
+  color: $c-555;
+  background-color: $bg-lighter;
+  border-bottom-color: $border-default;
+}
+.live-dashboard .checklist-remove-container, .live-dashboard .checklist-item {
+  border-top-color: $border-default;
+  color: $c-333;
+}
+.live-dashboard-status-bar-container, .live-dashboard-status-bar .health-and-status, .yt-live-chat-renderer-0 yt-live-chat-header-renderer.yt-live-chat-renderer, .yt-live-chat-renderer-0 #action-panel.yt-live-chat-renderer:not(:empty), .yt-card .yt-uix-button-expander, .live-event-analytics-v2 #live-event-manager-ribbon-container, .live-event-analytics-v2 .yt-vertical-rule-main, .live-event-analytics-v2 #live-rtd-summary-box-details tr, .live-event-analytics-v2 #live-rtd-manage-mode-content {
+  border-color: $border-default;
+}
+.live-dashboard-status-bar .yt-ui-ellipsis, .live-event-analytics-v2 #live-rtd-summary-box {
+  background-color: $bg-lighter;
+}
+.live-dashboard .floating-dragdrop-handle-container .yt-uix-dragdrop-drag-handle, .live-dashboard .player-controls-buttons,.live-dashboard .live-chat-card .settings-panel .settings-card, .live-dashboard .live-chat-card .live-chat-iframe, .dashboard #live-event-manager-body, .managed #live-event-manager-body, .live-event-analytics-v2 .live-control-panel {
+  background-color: $bg;
+}
+.live-dashboard .yt-www-ls-rts-summary-div rect {
+  fill: $bg;
+}
+.live-dashboard .live-chat-card .settings-panel {
+  background: rgba(26,26,26,.8);
+}
+.live-dashboard .live-chat-card {
+  background: $live-chat-bg;
+}
+.live-event-analytics-v2 #live-rtd-summary-box-top-container {
+  border-color: $border-default;
+  color: $c-333;
+}
+#live-rtd-top-container {
+  box-shadow: 0 1px 1px $bg;
+}
+/*text colors*/
+.live-dashboard .strong-text, .live-dashboard .yt-uix-tabs .yt-uix-button-content, .live-dashboard .analytics-summary-metric-header .analytics-summary-metric-header-number, .yt-live-tab.yt-uix-tabs-selected, .yt-live-tab:hover, .live-rtd-header {
+  color: $c-333;
+}
+/*icon inverting*/
+.live-welcome-webcam-icon, .live-welcome-engage-icon, .live-welcome-controls-icon, .yt-uix-expander-collapsed .yt-uix-expander-arrow-left, .yt-uix-expander-collapsed .yt-uix-expander-arrow {
+  filter: $invert;
+}
+
+/******COMMUNITY*******/
+.tabbed-page .tab.active {
+  border-bottom-color: $bg;
+  background-color: $bg;
+  color: $c-333;
+}
+.tabbed-page .tabs-area, .tabbed-page .tabs-wrapper, .tabbed-page .options-bar, #comment-settings .comment-settings-section, #comment-settings .comment-settings-item, .acl-target-list-container[data-which='moderator'], #comment-settings, .subscribers-table td, .yt-channel-msg-dialog .user-box {
+  border-color: $border-default;
+}
+.tabbed-page .tab {
+  background-color: $bg-darker;
+  border-color: $border-default;
+}
+.video-dds .list {
+  border-color: $border-default;
+  background-color: $bg;
+}
+.video-dds .entry:hover .highlight, #comment-settings .comment-settings-header {
+  background-color: $bg-lighter;
+}
+#comment-settings .comment-settings-title, #comment-settings .comment-settings-label {
+  color: $c-333;
+}
+.comments .comment-footer-action, .creator-subheader-help-text {
+  color: $c-555;
+}
+.subscribers-table .subscribers-table-header {
+  border-color: $border-default;
+  color: $gray-lighter;
+}
+.subscribers-table .subscribed-since, .subscribers-table .description-text a, #comment-settings label {
+  color: $gray-lighter;
+}
+.yt-channel-msg-dialog .yt-dialog-footer, .commenthub .comments .mod-buttonbar .mod-button-content:hover {
+  background-color: $bg-lighter;
+}
+.yt-dialog-base, .yt-uix-overlay-base {
+  background: rgba(0,0,0,.75);
+}
+.comments .mod-button .default-state {
+  filter: $invert;
+}
+.comments .comment-item:hover .mod-buttonbar, .comments .comment-item:hover .mod-buttonbar .mod-button {
+  color: $c-000;
+  border-color: $border-default;
+}
+.comments .paginator {
+  background: $btn-def-bg;
+  border-color: $btn-def-border;
+  color: $c-333;
+}
+.comments .paginator:hover {
+  background: $btn-def-bg-hover;
+  border-color: $btn-def-border-hover;
+  color: $gray-lighter;
+}
+
+/******CHANNEL*******/
+.account-status-v2, .account-status-scales, #creator-subheader, .account-content .account-section.account-bordered-section {
+  border-color: $border-default;
+}
+.account-feature-v2-grid-items li {
+  background-color: $bg-darker;
+  border-color: $border-darker;
+}
+.account-feature-v2-grid-items .account-features-v2-grid-item-title {
+  border-color: $border-darker;
+}
+.account-features-v2-content, .account-feature-v2-grid-items .account-features-v2-grid-item-description a {
+  color: $gray-lighter;
+}
+.yt-default p, p.yt, ol.yt, ul.yt, .yt-default ol, .yt-default ul, .channel-watermark-uploader-content .upload-guidelines {
+  color: $c-333;
+}
+.monetization-content .example {
+  background-color: $bg-darker;
+}
+.featured-programming-editor .overview {
+  background-color: $bg;
+  border-color: $border-default;
+}
+
+/******ANALYTICS*******/
+.HPHGCHB-b-d, .HPHGCHB-R-D, .HPHGCHB-kb-p, .HPHGCHB-kb-i, .HPHGCHB-kb-m, .HPHGCHB-R-h, .HPHGCHB-f-a, .HPHGCHB-W-o .HPHGCHB-W-w td, .HPHGCHB-M-b, .HPHGCHB-hb-b, .HPHGCHB-hb-b .gwt-viz-container, .HPHGCHB-W-o, .HPHGCHB-W-c, .HPHGCHB-F-j {
+  background-color: $bg;
+}
+.HPHGCHB-d-a .HPHGCHB-d-b, .HPHGCHB-P-g h2 a, .HPHGCHB-R-w, .HPHGCHB-R-b, .HPHGCHB-R-l .HPHGCHB-f-c:hover .HPHGCHB-f-f, .HPHGCHB-R-l .HPHGCHB-f-h .HPHGCHB-f-f, .HPHGCHB-b-c, .HPHGCHB-ob-d, .HPHGCHB-W-q .HPHGCHB-W-F, .HPHGCHB-L-p, .HPHGCHB-L-n {
+  color: $c-222;
+}
+.HPHGCHB-R-s .HPHGCHB-R-B, .HPHGCHB-R-e {
+  color: $c-333;
+}
+#creator-sidebar .creator-sidebar-submenu h3 {
+  color: $c-555;
+}
+.HPHGCHB-ab-e {
+  border-top-color: $bg!important;
+}
+.HPHGCHB-R-m, .HPHGCHB-kb-y, .HPHGCHB-M-a {
+  border-top-color: $border-default;
+}
+.HPHGCHB-t-a, .HPHGCHB-R-C .HPHGCHB-R-x, .HPHGCHB-kb-y tr, .HPHGCHB-W-o th, .HPHGCHB-W-o td, .HPHGCHB-W-c th, .HPHGCHB-W-c td, .HPHGCHB-T-l tr {
+  border-bottom-color: $border-default;
+}
+.HPHGCHB-R-x, .HPHGCHB-R-c, .HPHGCHB-R-z, .HPHGCHB-L-j {
+  border-right-color: $border-default;
+}
+.HPHGCHB-T-d {
+  border-top-color: $border-default;
+  border-bottom-color: $border-default;
+}
+.HPHGCHB-P-j, .HPHGCHB-kb-b, .HPHGCHB-W-u, .HPHGCHB-K-c, .HPHGCHB-n-c {
+  filter: $invert;
+}
+.HPHGCHB-R-p:hover, .HPHGCHB-R-c:hover, .HPHGCHB-kb-r, .HPHGCHB-W-o tr:nth-child(2n), .HPHGCHB-T-l td:nth-child(3):hover, .HPHGCHB-T-l td:nth-child(4):hover {
+  background-color: $bg-lighter;
+}
+.HPHGCHB-R-j ellipse {
+  stroke: $bg;
+}
+.gwt-viz-container rect {
+  fill: $border-default;
+}
+.HPHGCHB-M-e {
+  border-bottom-color: $border-default;
+  background-color: $bg;
+}
+.HPHGCHB-eb-a, .HPHGCHB-eb-a li, .HPHGCHB-L-i {
+  background: $bg-lighter;
+  border-color: $border-default;
+}
+.HPHGCHB-eb-a li.HPHGCHB-eb-b, .HPHGCHB-L-j.HPHGCHB-g-y, .HPHGCHB-L-j.HPHGCHB-g-y:hover {
+  background-color: $bg-darker;
+}
+.HPHGCHB-eb-a li:hover, .HPHGCHB-L-j:hover {
+  background: $bg;
+}
+/*buttons-start*/
+.HPHGCHB-g-f {
+  background: $btn-def-bg;
+  border-color: $btn-def-border;
+  color: $c-333;
+  text-shadow: 0 1px 0 rgba(0,0,0,.5);
+}
+.HPHGCHB-g-v:hover, .HPHGCHB-g-f:hover, .HPHGCHB-g-w:hover {
+  background: $btn-def-bg-hover;
+  border-color: $btn-def-border-hover;
+  color: $gray-lighter;
+}
+.HPHGCHB-g-f:focus, .HPHGCHB-g-v:focus, .HPHGCHB-g-w:focus {
+  -moz-box-shadow: 0 0 5px rgba(63,118,183,0.5),inset 0 0 10px $bg;
+  -ms-box-shadow: 0 0 5px rgba(63,118,183,0.5),inset 0 0 10px $bg;
+  -webkit-box-shadow: 0 0 5px rgba(63,118,183,0.5), inset 0 0 10px $bg;
+  box-shadow: 0 0 5px rgba(63,118,183,0.5), inset 0 0 10px $bg;
+}
+.HPHGCHB-g-v:active, .HPHGCHB-g-f:active, .HPHGCHB-g-w:active, .HPHGCHB-g-f.HPHGCHB-g-y {
+  border-color: $btn-def-border;
+  background: $btn-def-bg;
+}
+/*buttons-stop*/
+/*Loader popup*/
+.HPHGCHB-c-b {
+  background: $bg-lighter;
+}
+/*dropdown menu*/
+.HPHGCHB-r-a {
+  border-color: $btn-def-border;
+  background: $bg;
+}
+.HPHGCHB-r-f {
+  color: $c-555;
+}
+.HPHGCHB-r-e, .HPHGCHB-r-e strong {
+  background-color: $dropdown-item-bg-hover;
+  color: #fff;
+}
+.HPHGCHB-r-h {
+  border-top-color: $border-darker;
+}
+/*dropdown calendar*/
+.HPHGCHB-K-h {
+  color: $c-222;
+  border-left-color: $border-default;
+  border-right-color: $border-default;
+  border-bottom-color: $border-default;
+}
+.HPHGCHB-K-h .datePickerMonthSelector, .HPHGCHB-K-h .datePickerDayIsWeekend {
+  background-color: $bg-darker;
+}
+.HPHGCHB-K-h .datePickerWeekdayLabel, .HPHGCHB-K-h .datePickerWeekendLabel {
+  background-color: $bg-darker;
+  border-bottom-color: $border-default;
+}
+/*Settings popup*/
+.HPHGCHB-s-n {
+  background-color: $bg;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  background-color: rgba(26, 26, 26, 0.8);
+}
+.HPHGCHB-s-f .HPHGCHB-s-p, .HPHGCHB-s-g {
+  border-color: $border-default;
+  color: $c-555;
+}
+.HPHGCHB-s-f {
+  background-color: $bg;
+  color: $c-333;
+}
+.HPHGCHB-s-f .HPHGCHB-s-i {
+  background: $bg-lighter;
+}
+.HPHGCHB-g-d {
+  filter: $invert;
+}
+
+/******TRANSLATIONS & TRANSCRIPTIONS*******/
+.yt-uix-overlay-actions {
+  background: $bg-lighter;
+}
+.caption-queue {
+  color: $c-333;
+}
+.yt-uix-clickcard-card-body, .yt-uix-hovercard-card-body {
+  color: $gray-lighter;
+}
+
+/******CREATE*******/
+.track-list li.track, .infobox-body {
+  background-color: $bg;
+}
+.track-list li.track:hover {
+  background-color: $bg-lighter;
+}
+.track:hover .audiolibrary-track-head .audiolibrary-column, .track.loading .audiolibrary-track-head .audiolibrary-column, .track.expanded .audiolibrary-track-head .audiolibrary-column, .audiolibrary-column-genre-and-mood a:hover, .mediapicker-audio.audio-track .audio-title {
+  color: $c-000;
+}
+.audiolibrary-column-title, .audiolibrary-column-title-expand {
+  color: $c-222;
+}
+#main-title, .asset-sound-recording-section, .asset-composition-section, .music-attribution-monetization-section, .music-attribution-no-monetization-section, .music-no-attribution-monetization-section, .music-no-attribution-no-monetization-section, .asset-restrictions-header, .asset-monetization-header, .asset-stores-header, .asset-restrictions-list div, .asset-monetization-list div, .asset-stores-list div, .drag-to-begin-message p, .drag-to-begin-audio-message p {
+   color: $c-333;
+ }
+.editor-slider .slider-readout {
+  color: $c-444;
+}
+#audio-library-track-footer, .asset-available-footer, .asset-not-available-text, .text-property-panel .property-title {
+  color: $c-555;
+}
+.audio-library-tab-subtitle {
+  color: $c-767676;
+}
+.track .expand-button .track-action-icon, .menu-tab img, img.storyboard-icon, .editor-slider .goog-slider-horizontal {
+  filter: $invert
+}
+.track-list li.track.expanded {
+  background-color: $bg-lighter;
+  border-bottom-color: $bg;
+}
+.top-menu, .track-list li.track {
+  border-bottom-color: $border-default;
+}
+#top-bar, #advertising-note, .yt-card .yt-uix-tabs, .video-media #infobox-options-container, .image-media #infobox-options-container {
+  border-color: $border-default;
+}
+#storyboard {
+  background-color: $bg-lighter;
+  border-color: $border-default;
+}
+.no-flash-error {
+  background: $bg-darker;
+}
+
+/******YOUR CONTRIBUTIONS*******/
+.caption-queue th, .caption-queue td {
+  border-bottom-color: $border-default;
+}
+.caption-queue .contribution-title a, .captions-editor-nav-tabs li>span, .captions-editor-nav-tabs li a, .auto-pause-checkbox-section {
+  color: $c-333;
+}
+.original-event-text, .translated-event-text, .review-event-text {
+  color: $c-555;
+}
+#creator-editor-container, .timedtext-content, #event-line-editor::-webkit-scrollbar-track-piece, .waveform-player {
+  background: $bg;
+}
+#event-line-editor::-webkit-scrollbar-thumb {
+  border-left-color: $bg;
+}
+.timed-event-line {
+  border-bottom-color: $border-darker;
+}
+#bottom-notes-section, #event-line-editor, #captions-editor-nav, .creator-editor-header, .button-with-separator .separator {
+  border-color: $border-default;
+}
+.timing-readonly .event-text {
+  outline: 1px solid $border-default;
+}
+.timed-event-line.timed-event-line-focused {
+  background-color: $bg-darker;
+}
+.timed-event-line:hover {
+  background-color: $bg-lighter;
+}
+.zoom-icon-container, .zoom-slider {
+  filter: $invert;
+}
+.track-filter-selection-list .track-filter.all, .yt-uix-languagepicker-search-container {
+  border-top-color: $border-darker;
+}
+
+/*Notifications*/
+.yt-creator-notifications .yt-creator-notifications-header h2 {
+  color: $c-333;
+}
+.yt-creator-notifications .yt-creator-tip-list tr {
+  color: $c-333;
+  border-top-color: $border-default;
+}
+.yt-creator-notifications .yt-creator-tip-list .inactive {
+  background: $bg-lighter;
+  color: $c-767676;
+}
+
+/*other*/
+#dashboard-header-stats li {
+  border-right-color: $border-default;
+}
+.chart.dashboard-widget-padded-content g text {
+  fill: rgba(170,170,170,1);
+}
+
+/*fixes*/
+.add-widget-button {
+  background-color: transparent!important;
+}
+#creator-sidebar>.creator-sidebar-section.selected>h3 a span {
+  filter: invert(0)!important;
+}

@@ -1,0 +1,44 @@
+@import "_variables.scss";
+/******UPLOAD*******/
+
+/*text color*/
+.upload-other-options-list .upload-option-text {
+  color: $c-333;
+}
+#upload-button-text, .upload-sidebar-header, .upload-footer-header {
+  color: $c-444;
+}
+.upload-item-sidebar-text h3, .sharing-networks-label {
+  color: $c-555;
+}
+.upload-item-sidebar-text, .custom-thumb-text {
+  color: $c-767676;
+}
+
+/*card background*/
+.upload-item {
+  border-color: $border-default;
+  background-color: $bg;
+}
+.upload-thumb, .basic-info-tab .custom-thumb-area {
+  border-color: $border-default;
+}
+.thumbnail-overlay-inner-border {
+  border-color: $bg;
+}
+.sharing-balloon {
+  color: $c-767676;
+  border-color: $border-default;
+}
+.sharing-balloon:before {
+  border-right-color: $border-default;
+}
+.sharing-balloon:after {
+  border-right-color: $bg;
+}
+.yt-uix-card-body-arrow-horizontal {
+  border-left-color: $bg;
+}
+input.yt-uix-form-input-checkbox.sharing-setting.autoshare-checkbox.sharing-network.autoshare-checkbox-twitter.mde-checkbox {
+  background: $bg;
+}

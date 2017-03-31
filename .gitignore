@@ -3,6 +3,7 @@
 *.map
 *.iml
 *.xml___jb_tmp___
+.sass-cache/
 
 # Whitelist :
 # File Watcher for PHP Storm
