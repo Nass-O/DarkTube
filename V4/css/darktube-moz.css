@@ -202,6 +202,11 @@
   }
 
   /******BUTTONS*******/
+  /*YT+*/
+  #subscription-playlist svg {
+    fill: #bdbdbd;
+  }
+
   /*default*/
   .yt-uix-button-subscribed-branded, .yt-uix-button-subscribed-branded[disabled], .yt-uix-button-subscribed-branded[disabled]:hover, .yt-uix-button-subscribed-branded[disabled]:active, .yt-uix-button-subscribed-branded[disabled]:focus, .yt-uix-button-subscribed-unbranded, .yt-uix-button-subscribed-unbranded[disabled], .yt-uix-button-subscribed-unbranded[disabled]:hover, .yt-uix-button-subscribed-unbranded[disabled]:active, .yt-uix-button-subscribed-unbranded[disabled]:focus, .yt-uix-button-default, .yt-uix-button-default[disabled], .yt-uix-button-default[disabled]:hover, .yt-uix-button-default[disabled]:active, .yt-uix-button-default[disabled]:focus, .yt-uix-tooltip.popoutmode, .yt-uix-tooltip.blacklist {
     background-color: #2e2e2e;
