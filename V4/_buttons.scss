@@ -1,14 +1,19 @@
 @import "_variables.scss";
 /******BUTTONS*******/
 
+/*YT+*/
+#subscription-playlist svg {
+  fill: $c-333;
+}
+
 /*default*/
-.yt-uix-button-subscribed-branded, .yt-uix-button-subscribed-branded[disabled], .yt-uix-button-subscribed-branded[disabled]:hover, .yt-uix-button-subscribed-branded[disabled]:active, .yt-uix-button-subscribed-branded[disabled]:focus, .yt-uix-button-subscribed-unbranded, .yt-uix-button-subscribed-unbranded[disabled], .yt-uix-button-subscribed-unbranded[disabled]:hover, .yt-uix-button-subscribed-unbranded[disabled]:active, .yt-uix-button-subscribed-unbranded[disabled]:focus,.yt-uix-button-default, .yt-uix-button-default[disabled], .yt-uix-button-default[disabled]:hover, .yt-uix-button-default[disabled]:active, .yt-uix-button-default[disabled]:focus {
+.yt-uix-button-subscribed-branded, .yt-uix-button-subscribed-branded[disabled], .yt-uix-button-subscribed-branded[disabled]:hover, .yt-uix-button-subscribed-branded[disabled]:active, .yt-uix-button-subscribed-branded[disabled]:focus, .yt-uix-button-subscribed-unbranded, .yt-uix-button-subscribed-unbranded[disabled], .yt-uix-button-subscribed-unbranded[disabled]:hover, .yt-uix-button-subscribed-unbranded[disabled]:active, .yt-uix-button-subscribed-unbranded[disabled]:focus,.yt-uix-button-default, .yt-uix-button-default[disabled], .yt-uix-button-default[disabled]:hover, .yt-uix-button-default[disabled]:active, .yt-uix-button-default[disabled]:focus, .yt-uix-tooltip.popoutmode, .yt-uix-tooltip.blacklist {
   background-color: $btn-def-bg;
   border-color: $btn-def-border;
   color: $c-333;
 }
 
-.yt-uix-button-default:hover, .yt-uix-button-text:hover {
+.yt-uix-button-default:hover, .yt-uix-button-text:hover, .yt-uix-tooltip.popoutmode:hover, .yt-uix-tooltip.blacklist:hover {
   background-color: $btn-def-bg-hover;
   border-color: $btn-def-border-hover;
   color: $gray-lighter;

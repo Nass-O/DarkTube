@@ -1,5 +1,11 @@
 @import "_variables.scss";
 /******SEARCH*******/
+.masthead-search-terms-border {
+  background-color: $bg !important;
+  border-color: $border-default;
+  box-shadow: none;
+}
+
 .gssb_k {
   z-index: 0;
 }
